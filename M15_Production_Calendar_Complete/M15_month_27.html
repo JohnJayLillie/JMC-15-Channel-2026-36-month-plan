@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 27 - March 2028 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 27: March 2028</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$230,400</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$69,120</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$161,280</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 114 - Starting 2028-03-07</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC042</div>
+                <div class="subject-title">Kraken User Data - IRS Demands All Records</div>
+                <div class="amount">Millions of Users</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP030</div>
+                <div class="subject-title">Cerberus Capital's GMAC/Chrysler Double Play</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB026</div>
+                <div class="subject-title">Endo Pharmaceuticals: Opioid Chapter 11</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC018</div>
+                <div class="subject-title">The Panama Papers' Colombian Connection: Mossack Fonseca's Cartel Clients</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI010</div>
+                <div class="subject-title">Elon Musk's Tesla Tweet Manipulation: $20M SEC Fine</div>
+                <div class="amount">$20M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG002</div>
+                <div class="subject-title">Jawbone - $3 Billion Valuation to Liquidation</div>
+                <div class="amount">$3B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 115 - Starting 2028-03-14</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC043</div>
+                <div class="subject-title">Al Capone - The Original Tax Evasion Conviction</div>
+                <div class="amount">$215M (adjusted)</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP031</div>
+                <div class="subject-title">Fortress Investment Group's Nationstar Mortgages</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB027</div>
+                <div class="subject-title">Insys Therapeutics: Fentanyl Spray Fraud Bankruptcy</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC019</div>
+                <div class="subject-title">HSBC: $1.9B Cartel Money Laundering Fine</div>
+                <div class="amount">$1.9B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI011</div>
+                <div class="subject-title">Nancy Pelosi's $30M+ Portfolio: Legal But Questionable Timing</div>
+                <div class="amount">$30M+</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG003</div>
+                <div class="subject-title">Juicero - The $400 Juice Bag Squeezer</div>
+                <div class="amount">$120M Raised</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 116 - Starting 2028-03-21</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC044</div>
+                <div class="subject-title">Spiro Agnew - Vice President Who Resigned for Tax Fraud</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP032</div>
+                <div class="subject-title">Aurelius Capital's Puerto Rico Debt Fight</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB028</div>
+                <div class="subject-title">Millennium Health: Urinalysis Fraud Bankruptcy</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC020</div>
+                <div class="subject-title">Wachovia: $378B in Drug Proceeds Processed</div>
+                <div class="amount">$378B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI012</div>
+                <div class="subject-title">Richard Burr's COVID Stock Dump: Pandemic Briefing to Trades</div>
+                <div class="amount">$1.6M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG004</div>
+                <div class="subject-title">Essential Phone - Andy Rubin's $300 Million Sequel Flop</div>
+                <div class="amount">$300M</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 117 - Starting 2028-03-28</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC045</div>
+                <div class="subject-title">The Kennedy Family Trust - How Dynasties Avoid Estate Taxes</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP033</div>
+                <div class="subject-title">Baupost Group's Distressed Mortgage Bonds 2008</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB029</div>
+                <div class="subject-title">PG&E Wildfire Bankruptcy: 84 Deaths</div>
+                <div class="amount">$30B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC021</div>
+                <div class="subject-title">Standard Chartered: Iran Sanctions Violations $1B</div>
+                <div class="amount">$1B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI013</div>
+                <div class="subject-title">Kelly Loeffler's 29 Trades in One Day After COVID Briefing</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG005</div>
+                <div class="subject-title">Hyperloop One - $400 Million to Build 500 Meters of Tube</div>
+                <div class="amount">$400M</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_26.html" class="nav-btn secondary">← Month 26</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_28.html" class="nav-btn secondary">Month 28 →</a>
+        </div>
+    </div>
+</body>
+</html>

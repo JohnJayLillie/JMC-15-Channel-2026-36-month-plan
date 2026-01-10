@@ -1,0 +1,705 @@
+week_number,date,month,year,channel_code,channel_name,subject_id,subject_title,amount,rpm_range
+1,2026-01-06,1,2026,FV,Financial Vice,FV001,Jim Bakker - PTL Ministry Scandal,$158M,$20-40
+1,2026-01-06,1,2026,CFF,Crypto Forensic Files,CFF001,QuadrigaCX - Gerald Cotten Death Mystery,$190M,$25-45
+2,2026-01-13,1,2026,FV,Financial Vice,FV002,Robert Tilton - Success-N-Life Prayer Scam,$80M+,$20-40
+2,2026-01-13,1,2026,CFF,Crypto Forensic Files,CFF002,Mt. Gox - Original Bitcoin Heist,$460M,$25-45
+3,2026-01-20,1,2026,FV,Financial Vice,FV003,Peter Popoff - Faith Healing Earpiece Scam,$23M+,$20-40
+3,2026-01-20,1,2026,CFF,Crypto Forensic Files,CFF003,BitConnect - $2.4B Ponzi (Hey Hey Hey),$2.4B,$25-45
+4,2026-01-27,1,2026,FV,Financial Vice,FV004,Creflo Dollar - $65M Private Jet Request,$65M,$20-40
+4,2026-01-27,1,2026,CFF,Crypto Forensic Files,CFF004,Cryptopia - Hack That Killed NZ Exchange,$16M,$25-45
+5,2026-02-03,2,2026,FV,Financial Vice,FV005,Scientology - IRS Tax Battle Victory,$1B+,$20-40
+5,2026-02-03,2,2026,CFF,Crypto Forensic Files,CFF005,Thodex - Turkey's Exchange Vanished Overnight,$2B,$25-45
+6,2026-02-10,2,2026,FV,Financial Vice,FV006,LDS Ensign Peak - $100B Hidden Fund,$100B+,$20-40
+6,2026-02-10,2,2026,CFF,Crypto Forensic Files,CFF006,Africrypt - South African Brothers Disappearance,$3.6B,$25-45
+7,2026-02-17,2,2026,FV,Financial Vice,FV007,Hillsong Church - Global Megachurch Scandal,$100M+,$20-40
+7,2026-02-17,2,2026,CFF,Crypto Forensic Files,CFF007,JPEX - Hong Kong Unlicensed Collapse,$200M,$25-45
+8,2026-02-24,2,2026,FV,Financial Vice,FV008,Kenneth Copeland - Ministry Empire,$760M+,$20-40
+8,2026-02-24,2,2026,CFF,Crypto Forensic Files,CFF008,Voyager Digital - Nasdaq to Bankruptcy,$1.3B,$25-45
+9,2026-03-03,3,2026,FV,Financial Vice,FV009,Sam Bankman-Fried - FTX Collapse,$8B,$20-40
+9,2026-03-03,3,2026,CFF,Crypto Forensic Files,CFF009,BlockFi - Bet Wrong on FTX,$1B+,$25-45
+10,2026-03-10,3,2026,FV,Financial Vice,FV010,Do Kwon - Terra/Luna Collapse,$40B,$20-40
+10,2026-03-10,3,2026,CFF,Crypto Forensic Files,CFF010,3AC (Three Arrows Capital) - Hedge Fund Implosion,$3B,$25-45
+11,2026-03-17,3,2026,FV,Financial Vice,FV011,Alex Mashinsky - Celsius Network,$4.7B,$20-40
+11,2026-03-17,3,2026,CFF,Crypto Forensic Files,CFF011,Squid Game Token - $3.4M Meme Coin Rug Pull,$3.4M,$25-45
+12,2026-03-24,3,2026,FV,Financial Vice,FV012,Charlie Javice - Frank Student Aid Fraud,$175M,$20-40
+12,2026-03-24,3,2026,CFF,Crypto Forensic Files,CFF012,SafeMoon - The 'Safe' Token That Wasn't,$200M+,$25-45
+13,2026-03-31,3,2026,FV,Financial Vice,FV013,Eddy Alexandre - EminiFX Church Ponzi,$248M,$20-40
+13,2026-03-31,3,2026,CFF,Crypto Forensic Files,CFF013,Frosties NFT - Disappearing Ice Cream Scam,$1.3M,$25-45
+13,2026-03-31,3,2026,SF,Shadow Fortunes,SF001,Inside the IMF: How It Shapes Nations in Crisis,Systemic,$18-35
+14,2026-04-07,4,2026,FV,Financial Vice,FV014,Bernie Madoff - $65B Ponzi Scheme,$65B,$20-40
+14,2026-04-07,4,2026,CFF,Crypto Forensic Files,CFF014,Bored Bunny NFT - Floyd Mayweather Disaster,$21M,$25-45
+14,2026-04-07,4,2026,SF,Shadow Fortunes,SF002,The Bank for International Settlements: World's Most Secretive Bank,Systemic,$18-35
+15,2026-04-14,4,2026,FV,Financial Vice,FV015,Allen Stanford - Caribbean Banking Empire,$7B,$20-40
+15,2026-04-14,4,2026,CFF,Crypto Forensic Files,CFF015,Evolved Apes NFT - Disappearing Developer,$2.7M,$25-45
+15,2026-04-14,4,2026,SF,Shadow Fortunes,SF003,Offshore Havens: Why Billions Vanish into the Caribbean,$Trillions,$18-35
+16,2026-04-21,4,2026,FV,Financial Vice,FV016,The South Sea Bubble - First Stock Market Scam,£500M (1720),$20-40
+16,2026-04-21,4,2026,CFF,Crypto Forensic Files,CFF016,AnubisDAO - $60M Dog Token Vanished,$60M,$25-45
+16,2026-04-21,4,2026,SF,Shadow Fortunes,SF004,The Rise of Sovereign Wealth Funds: Nations as Investors,$10T+,$18-35
+17,2026-04-28,4,2026,FV,Financial Vice,FV017,Colonial Realty - Connecticut's Ponzi,$312M,$20-40
+17,2026-04-28,4,2026,CFF,Crypto Forensic Files,CFF017,Meerkat Finance - $31M Inside Job 'Hack',$31M,$25-45
+17,2026-04-28,4,2026,SF,Shadow Fortunes,SF005,Petrodollar Power: How Oil Became America's Silent Weapon,Systemic,$18-35
+18,2026-05-05,5,2026,FV,Financial Vice,FV018,Enron - Smartest Guys Who Lost Everything,$74B,$20-40
+18,2026-05-05,5,2026,CFF,Crypto Forensic Files,CFF018,Iron Finance/TITAN - Mark Cuban's Collapse,$2B,$25-45
+18,2026-05-05,5,2026,SF,Shadow Fortunes,SF006,The Hidden Trillions of the Shadow Banking System,$Trillions,$18-35
+19,2026-05-12,5,2026,FV,Financial Vice,FV019,WorldCom - When Numbers Lied to Wall Street,$11B,$20-40
+19,2026-05-12,5,2026,CFF,Crypto Forensic Files,CFF019,Wonderland/TIME - CFO Was Convicted Felon,$1B+,$25-45
+19,2026-05-12,5,2026,SF,Shadow Fortunes,SF007,How Money Laundering Keeps the Global Economy Flowing,$2T+ Annually,$18-35
+20,2026-05-19,5,2026,FV,Financial Vice,FV020,Lehman Brothers - Bank That Triggered Global Crash,$639B,$20-40
+20,2026-05-19,5,2026,CFF,Crypto Forensic Files,CFF020,Compound Finance Glitch - $80M Giveaway,$80M,$25-45
+20,2026-05-19,5,2026,SF,Shadow Fortunes,SF008,The London Laundromat: Dirty Cash in World's Finance Capital,$80B+,$18-35
+21,2026-05-26,5,2026,FV,Financial Vice,FV021,Parmalat - Italy's $20B Dairy Disaster,$20B,$20-40
+21,2026-05-26,5,2026,CFF,Crypto Forensic Files,CFF021,Ronin Bridge - North Korea's $620M Theft,$620M,$25-45
+21,2026-05-26,5,2026,SF,Shadow Fortunes,SF009,Swiss Banks & Secrecy Laws: Why Billionaires Trust Them,$Trillions,$18-35
+22,2026-06-02,6,2026,FV,Financial Vice,FV022,HealthSouth - Cooking the Books,$2.7B,$20-40
+22,2026-06-02,6,2026,CFF,Crypto Forensic Files,CFF022,Wormhole Bridge - $320M Cross-Chain Exploit,$320M,$25-45
+22,2026-06-02,6,2026,SF,Shadow Fortunes,SF010,Narco Dollars: How Cartel Money Infiltrates Wall Street,$Hundreds of Billions,$18-35
+23,2026-06-09,6,2026,FV,Financial Vice,FV023,Luckin Coffee - China's Fake Starbucks,$4.5B,$20-40
+23,2026-06-09,6,2026,CFF,Crypto Forensic Files,CFF023,Nomad Bridge - $190M Chaotic Free-For-All,$190M,$25-45
+23,2026-06-09,6,2026,SF,Shadow Fortunes,SF011,Sanctions as Economic Warfare: Freezing Nations into Collapse,Systemic,$18-35
+24,2026-06-16,6,2026,FV,Financial Vice,FV024,Wirecard - Germany's Billion-Dollar Phantom,$2B,$20-40
+24,2026-06-16,6,2026,CFF,Crypto Forensic Files,CFF024,Poly Network - $610M Hack (Hacker Returned It),$610M,$25-45
+24,2026-06-16,6,2026,SF,Shadow Fortunes,SF012,The Yuan Challenge: Can China Replace the Dollar?,Systemic,$18-35
+25,2026-06-23,6,2026,FV,Financial Vice,FV025,Crazy Eddie - America's Most Fraudulent Retailer,$145M,$20-40
+25,2026-06-23,6,2026,CFF,Crypto Forensic Files,CFF025,Cream Finance - Hacked 3 Times for $130M+,$130M+,$25-45
+25,2026-06-23,6,2026,SF,Shadow Fortunes,SF013,Economic Siege: How Nations Use Debt as a Weapon,Systemic,$18-35
+26,2026-06-30,6,2026,FV,Financial Vice,FV026,Tyco International - CEO Greed on Display,$600M,$20-40
+26,2026-06-30,6,2026,CFF,Crypto Forensic Files,CFF026,Mango Markets - $114M Legal Market Manipulation,$114M,$25-45
+26,2026-06-30,6,2026,SF,Shadow Fortunes,SF014,BRICS vs. The Dollar: The Coming Currency Showdown,Systemic,$18-35
+27,2026-07-07,7,2026,FV,Financial Vice,FV027,Barings Bank - Rogue Trader Who Sank It,$1.3B,$20-40
+27,2026-07-07,7,2026,CFF,Crypto Forensic Files,CFF027,Euler Finance - $197M Flash Loan Attack,$197M,$25-45
+27,2026-07-07,7,2026,SF,Shadow Fortunes,SF015,The Euro Crisis: When Unity Nearly Bankrupted Europe,$Trillions at Risk,$18-35
+28,2026-07-14,7,2026,FV,Financial Vice,FV028,Long-Term Capital Management - Hedge Fund Meltdown,$4.6B,$20-40
+28,2026-07-14,7,2026,CFF,Crypto Forensic Files,CFF028,Beanstalk Farms - $182M Governance Attack,$182M,$25-45
+28,2026-07-14,7,2026,SF,Shadow Fortunes,SF016,Enron: The Company That Lied to the World,$74B,$18-35
+29,2026-07-21,7,2026,FV,Financial Vice,FV029,Charles Keating - S&L Crisis,$3.4B,$20-40
+29,2026-07-21,7,2026,CFF,Crypto Forensic Files,CFF029,Harmony Bridge - $100M North Korean Heist,$100M,$25-45
+29,2026-07-21,7,2026,SF,Shadow Fortunes,SF017,Lehman Brothers: The Collapse That Sparked 2008,$639B,$18-35
+30,2026-07-28,7,2026,FV,Financial Vice,FV030,Colonial Bank Fraud - Biggest in Banking History,$3B,$20-40
+30,2026-07-28,7,2026,CFF,Crypto Forensic Files,CFF030,Wintermute - $160M Market Maker Hack,$160M,$25-45
+30,2026-07-28,7,2026,SF,Shadow Fortunes,SF018,The LIBOR Scandal: How Banks Rigged World's Interest Rates,$9B Fines,$18-35
+31,2026-08-04,8,2026,FV,Financial Vice,FV031,Peregrine Financial - $200M Lie,$215M,$20-40
+31,2026-08-04,8,2026,CFF,Crypto Forensic Files,CFF031,Logan Paul's CryptoZoo - NFT Game Never Worked,$2M+ Losses,$25-45
+31,2026-08-04,8,2026,SF,Shadow Fortunes,SF019,Iceland's Financial Meltdown: When a Nation Went Bankrupt,$100B Collapse,$18-35
+32,2026-08-11,8,2026,FV,Financial Vice,FV032,Valeant Pharmaceuticals - Wall Street Greed,$10B+ Loss,$20-40
+32,2026-08-11,8,2026,CFF,Crypto Forensic Files,CFF032,Kim Kardashian's EthereumMax - $1.26M SEC Fine,$1.26M,$25-45
+32,2026-08-11,8,2026,SF,Shadow Fortunes,SF020,The 2008 Financial Crisis: Systemic Failure Explained,$Trillions Lost,$18-35
+33,2026-08-18,8,2026,FV,Financial Vice,FV033,Martin Shkreli - Daraprim Price Hike,$200M Fraud,$20-40
+33,2026-08-18,8,2026,CFF,Crypto Forensic Files,CFF033,Save the Kids - FaZe Clan Pump and Dump,Millions Lost,$25-45
+33,2026-08-18,8,2026,SF,Shadow Fortunes,SF021,Dictators' Hidden Treasuries: Marcos Gaddafi and More,$Hundreds of Billions,$18-35
+33,2026-08-18,8,2026,USM,USA Money Flow,UMF001,Who Profits From Your Student Loans,$1.7T Market,$15-30
+34,2026-08-25,8,2026,FV,Financial Vice,FV034,Toshiba Accounting Scandal,$1.2B,$20-40
+34,2026-08-25,8,2026,CFF,Crypto Forensic Files,CFF034,Matt Damon's Crypto.com - Fortune Favors Crash,Brand Damage,$25-45
+34,2026-08-25,8,2026,SF,Shadow Fortunes,SF022,Blood Diamonds: The True Cost of Luxury,$Billions,$18-35
+34,2026-08-25,8,2026,USM,USA Money Flow,UMF002,Student Loan Servicer Report Card: Who's Worst?,$Billions,$15-30
+35,2026-09-01,9,2026,FV,Financial Vice,FV035,Satyam - India's Enron,$1B,$20-40
+35,2026-09-01,9,2026,CFF,Crypto Forensic Files,CFF035,Tom Brady & Gisele - FTX Left Holding Nothing,$650M Lawsuit,$25-45
+35,2026-09-01,9,2026,SF,Shadow Fortunes,SF023,Gold Smuggling Empires: The Oldest Shadow Market,$Billions,$18-35
+35,2026-09-01,9,2026,USM,USA Money Flow,UMF003,What the Government Pays Student Loan Companies,$Billions Annually,$15-30
+36,2026-09-08,9,2026,FV,Financial Vice,FV036,Nikko Securities Fraud,$225M,$20-40
+36,2026-09-08,9,2026,CFF,Crypto Forensic Files,CFF036,BitBoy Crypto - Ben Armstrong Implosion,Channel Collapse,$25-45
+36,2026-09-08,9,2026,SF,Shadow Fortunes,SF024,Art as Money: How Billionaires Hide Billions in Paintings,$Billions,$18-35
+36,2026-09-08,9,2026,USM,USA Money Flow,UMF004,The Student Loan Forgiveness Money Trail,$Billions,$15-30
+37,2026-09-15,9,2026,FV,Financial Vice,FV037,Michael Milken - Junk Bond King,$550M Fine,$20-40
+37,2026-09-15,9,2026,CFF,Crypto Forensic Files,CFF037,Jake Paul's Safemoon - Influencer Pump,Lawsuit Filed,$25-45
+37,2026-09-15,9,2026,SF,Shadow Fortunes,SF025,The Vatican Bank: Holy Wealth or Hidden Empire?,$Billions,$18-35
+37,2026-09-15,9,2026,USM,USA Money Flow,UMF005,MOHELA vs. Nelnet: Contract Comparison Exposed,$Billions,$15-30
+37,2026-09-15,9,2026,HH,Healthcare Heist,HH001,Rick Scott's Columbia/HCA - $1.7B Medicare Fraud,$1.7B,$18-35
+38,2026-09-22,9,2026,FV,Financial Vice,FV038,Junk Bond Boom & Bust,$189B Market,$20-40
+38,2026-09-22,9,2026,CFF,Crypto Forensic Files,CFF038,Larry David FTX Super Bowl - Worst Endorsement,Brand Damage,$25-45
+38,2026-09-22,9,2026,SF,Shadow Fortunes,SF026,Panama Papers: Exposing Offshore Secrets of the Rich,214K Entities,$18-35
+38,2026-09-22,9,2026,USM,USA Money Flow,UMF006,Where Your Medicare Money Actually Goes,$1T+ Annually,$15-30
+38,2026-09-22,9,2026,HH,Healthcare Heist,HH002,Detroit Medicare Fraud Capital - $500M+ Claims,$500M+,$18-35
+39,2026-09-29,9,2026,FV,Financial Vice,FV039,Insider Trading Wars of Wall Street,Multiple Cases,$20-40
+39,2026-09-29,9,2026,CFF,Crypto Forensic Files,CFF039,Soulja Boy's Multiple Rug Pulls,Multiple Tokens,$25-45
+39,2026-09-29,9,2026,SF,Shadow Fortunes,SF027,Paradise Papers: The Second Leak of Billionaire Secrets,13.4M Documents,$18-35
+39,2026-09-29,9,2026,USM,USA Money Flow,UMF007,Medicare Advantage: The Companies Getting Rich,$Hundreds of Billions,$15-30
+39,2026-09-29,9,2026,HH,Healthcare Heist,HH003,Dr. Farid Fata - Chemo to Healthy Patients,$34M,$18-35
+40,2026-10-06,10,2026,FV,Financial Vice,FV040,Jordan Belfort - Wolf of Wall Street,$200M,$20-40
+40,2026-10-06,10,2026,CFF,Crypto Forensic Files,CFF040,Lil Yachty YachtyCoin Disasters,Multiple Tokens,$25-45
+40,2026-10-06,10,2026,SF,Shadow Fortunes,SF028,Shell Companies Explained: How the Wealthy Disappear Money,Systemic,$18-35
+40,2026-10-06,10,2026,USM,USA Money Flow,UMF008,What Hospitals Get Paid by Medicare,$Billions,$15-30
+40,2026-10-06,10,2026,HH,Healthcare Heist,HH004,Phillip Esformes - $1.3B Nursing Home Kickbacks,$1.3B,$18-35
+41,2026-10-13,10,2026,FV,Financial Vice,FV041,Bre-X Gold Mining Fraud,$6B,$20-40
+41,2026-10-13,10,2026,CFF,Crypto Forensic Files,CFF041,OneCoin - Ruja's $4B Cryptoqueen Ponzi,$4B,$25-45
+41,2026-10-13,10,2026,SF,Shadow Fortunes,SF029,Delaware: America's Own Tax Haven,1.5M Entities,$18-35
+41,2026-10-13,10,2026,USM,USA Money Flow,UMF009,Medicare Part D: Who Profits From Drug Coverage,$100B+,$15-30
+41,2026-10-13,10,2026,HH,Healthcare Heist,HH005,Texas Home Health Tsunami - $375M False Claims,$375M,$18-35
+42,2026-10-20,10,2026,FV,Financial Vice,FV042,Volkswagen Dieselgate,$30B+,$20-40
+42,2026-10-20,10,2026,CFF,Crypto Forensic Files,CFF042,PlusToken - China's $2B Crypto Ponzi,$2B,$25-45
+42,2026-10-20,10,2026,SF,Shadow Fortunes,SF030,The Cayman Islands Economy: Built on Hidden Billions,$Trillions,$18-35
+42,2026-10-20,10,2026,USM,USA Money Flow,UMF010,The Medicare Administrative Contractors Exposed,$Billions,$15-30
+42,2026-10-20,10,2026,HH,Healthcare Heist,HH006,Dr. Jacques Roy - 11000 Patients $375M Fraud,$375M,$18-35
+43,2026-10-27,10,2026,FV,Financial Vice,FV043,FIFA Corruption Scandal,$150M+,$20-40
+43,2026-10-27,10,2026,CFF,Crypto Forensic Files,CFF043,Bitclub Network - $722M Mining Pool Fraud,$722M,$25-45
+43,2026-10-27,10,2026,SF,Shadow Fortunes,SF031,Belt and Road Debt Traps: How China Buys Influence,$1T+ Projects,$18-35
+43,2026-10-27,10,2026,USM,USA Money Flow,UMF011,The Biggest PPP Loan Winners Exposed,$800B Program,$15-30
+43,2026-10-27,10,2026,HH,Healthcare Heist,HH007,Miami HIV Infusion Fraud Ring - $1B+ Fake Treatments,$1B+,$18-35
+44,2026-11-03,11,2026,FV,Financial Vice,FV044,Libor Rate Rigging,$9B Fines,$20-40
+44,2026-11-03,11,2026,CFF,Crypto Forensic Files,CFF044,Mirror Trading International - SA's $589M Scam,$589M,$25-45
+44,2026-11-03,11,2026,SF,Shadow Fortunes,SF032,Ghost Projects: Abandoned Mega-Builds That Bankrupted Nations,$Hundreds of Billions,$18-35
+44,2026-11-03,11,2026,USM,USA Money Flow,UMF012,PPP Money: Three Years Later Where Did It Go?,$800B,$15-30
+44,2026-11-03,11,2026,HH,Healthcare Heist,HH008,Ambulance Chasers - $450M Dialysis Transport,$450M,$18-35
+45,2026-11-10,11,2026,FV,Financial Vice,FV045,Facebook-Cambridge Analytica,87M Users,$20-40
+45,2026-11-10,11,2026,CFF,Crypto Forensic Files,CFF045,USI-Tech - German Crypto Trading Bot Ponzi,$150M+,$25-45
+45,2026-11-10,11,2026,SF,Shadow Fortunes,SF033,Olympic Economics: The Hidden Costs of Hosting Games,$Billions per Event,$18-35
+45,2026-11-10,11,2026,USM,USA Money Flow,UMF013,Public Companies That Took PPP Loans,$Billions,$15-30
+45,2026-11-10,11,2026,HH,Healthcare Heist,HH009,Compounding Pharmacy - Billions in Cream Fraud,$Billions,$18-35
+46,2026-11-17,11,2026,FV,Financial Vice,FV046,Uber's Culture of Chaos,$10B Impact,$20-40
+46,2026-11-17,11,2026,CFF,Crypto Forensic Files,CFF046,Forsage - Ethereum Smart Contract Pyramid,$300M+,$25-45
+46,2026-11-17,11,2026,SF,Shadow Fortunes,SF034,Mega Dams: Power Corruption and Displacement,$Billions,$18-35
+46,2026-11-17,11,2026,USM,USA Money Flow,UMF014,PPP Fraud: The Biggest Cases and Recoveries,$Billions,$15-30
+46,2026-11-17,11,2026,HH,Healthcare Heist,HH010,Melgen & Menendez - $105M Medicare Eye Doctor,$105M,$18-35
+47,2026-11-24,11,2026,FV,Financial Vice,FV047,Wells Fargo Fake Accounts,$3B Settlement,$20-40
+47,2026-11-24,11,2026,CFF,Crypto Forensic Files,CFF047,Finiko - Russia's $1B Crypto Ponzi,$1B,$25-45
+47,2026-11-24,11,2026,SF,Shadow Fortunes,SF035,Dubai's Debt Crisis: The Hidden Cost of Glittering Towers,$80B Bailout,$18-35
+47,2026-11-24,11,2026,USM,USA Money Flow,UMF015,Banks That Profited From PPP Processing,$Billions,$15-30
+47,2026-11-24,11,2026,HH,Healthcare Heist,HH011,Hospice Hustle - Enrolling Living Patients,Ongoing,$18-35
+48,2026-12-01,12,2026,FV,Financial Vice,FV048,Herbalife - Pyramid or Marketing?,$200M Settlement,$20-40
+48,2026-12-01,12,2026,CFF,Crypto Forensic Files,CFF048,HashFlare - Cloud Mining Scam $575M,$575M,$25-45
+48,2026-12-01,12,2026,SF,Shadow Fortunes,SF036,How the CIA Used Banks to Move Money in Cold War,Classified,$18-35
+48,2026-12-01,12,2026,USM,USA Money Flow,UMF016,What the Government Pays McKinsey,$Billions,$15-30
+48,2026-12-01,12,2026,HH,Healthcare Heist,HH012,COVID Testing Fraud - Pandemic Billing Bonanza,$Billions,$18-35
+49,2026-12-08,12,2026,FV,Financial Vice,FV049,Dot-Com Bust's Biggest Frauds,$Trillions Lost,$20-40
+49,2026-12-08,12,2026,CFF,Crypto Forensic Files,CFF049,Trade Coin Club - $295M Crypto Trading Ponzi,$295M,$25-45
+49,2026-12-08,12,2026,SF,Shadow Fortunes,SF037,Mossad MI6 & Offshore Networks: Secret Finance in Intelligence,Classified,$18-35
+49,2026-12-08,12,2026,USM,USA Money Flow,UMF017,Booz Allen Hamilton: The Government's IT Department,$Billions,$15-30
+49,2026-12-08,12,2026,HH,Healthcare Heist,HH013,Tenet Healthcare Unnecessary Heart Surgeries - 769 Patients,$54M,$18-35
+49,2026-12-08,12,2026,RER,Real Estate Rackets,RER001,Countrywide Financial - Angelo Mozilo's Subprime Machine,$Billions,$15-30
+50,2026-12-15,12,2026,FV,Financial Vice,FV050,Mirror Trading & Russia's Laundering Networks,$Billions,$20-40
+50,2026-12-15,12,2026,CFF,Crypto Forensic Files,CFF050,Hyperverse/HyperFund - $1.3B Australian MLM,$1.3B,$25-45
+50,2026-12-15,12,2026,SF,Shadow Fortunes,SF038,The Swiss Vaults That Hid Nazi Gold,$Billions,$18-35
+50,2026-12-15,12,2026,USM,USA Money Flow,UMF018,Federal IT Project Disasters and Costs,$Billions Wasted,$15-30
+50,2026-12-15,12,2026,HH,Healthcare Heist,HH014,HCA's Upcoding Empire - Never Rendered Services,$1.7B (partial),$18-35
+50,2026-12-15,12,2026,RER,Real Estate Rackets,RER002,Washington Mutual - Largest Bank Failure in U.S. History,$307B Collapse,$15-30
+51,2026-12-22,12,2026,FV,Financial Vice,FV051,Adelphia Communications - Family Stole $2.3B,$2.3B,$20-40
+51,2026-12-22,12,2026,SF,Shadow Fortunes,SF039,Iran-Contra: How Secret Money Fueled Shadow Wars,$Millions,$18-35
+51,2026-12-22,12,2026,USM,USA Money Flow,UMF019,The Big Four Consulting Firms' Government Money,$Billions,$15-30
+51,2026-12-22,12,2026,HH,Healthcare Heist,HH015,Community Health Systems - $98M Unnecessary Admissions,$98M,$18-35
+51,2026-12-22,12,2026,RER,Real Estate Rackets,RER003,New Century Financial - Subprime Lender That Started Crash,$1.75B,$15-30
+52,2026-12-29,12,2026,FV,Financial Vice,FV052,Refco - Futures Broker's $430M Fraud,$430M,$20-40
+52,2026-12-29,12,2026,SF,Shadow Fortunes,SF040,Dark Money in Politics: Who Really Buys Elections?,$Billions,$18-35
+52,2026-12-29,12,2026,USM,USA Money Flow,UMF020,Accenture Federal Services: Contracts Breakdown,$Billions,$15-30
+52,2026-12-29,12,2026,HH,Healthcare Heist,HH016,The $700 Tylenol - Hospital Chargemaster Secrets,Systemic,$18-35
+52,2026-12-29,12,2026,RER,Real Estate Rackets,RER004,IndyMac - The $32B Bank Seized by FDIC,$32B,$15-30
+53,2027-01-05,1,2027,FV,Financial Vice,FV053,MF Global - $1.6B Customer Funds Vanished,$1.6B,$20-40
+53,2027-01-05,1,2027,SF,Shadow Fortunes,SF041,Bitcoin vs. Central Banks: The New Financial Cold War,Systemic,$18-35
+53,2027-01-05,1,2027,USM,USA Money Flow,UMF021,Why Insulin Costs $300: The Money Trail,$35B Market,$15-30
+53,2027-01-05,1,2027,HH,Healthcare Heist,HH017,Surprise Billing - Out-of-Network Anesthesiologist Trap,$100K+ Bills,$18-35
+53,2027-01-05,1,2027,RER,Real Estate Rackets,RER005,Taylor Bean & Whitaker - $3B Mortgage Fraud Nobody Heard Of,$3B,$15-30
+54,2027-01-12,1,2027,FV,Financial Vice,FV054,The Travelers Insurance Fraud - Oldest US Fraud,$100M+,$20-40
+54,2027-01-12,1,2027,SF,Shadow Fortunes,SF042,Tether: The Stablecoin That Could Break the Market,$100B+,$18-35
+54,2027-01-12,1,2027,USM,USA Money Flow,UMF022,Medicare's Most Expensive Drugs Ranked,$Billions,$15-30
+54,2027-01-12,1,2027,HH,Healthcare Heist,HH018,Air Ambulance Racket - $50K Helicopter Rides,Ongoing,$18-35
+54,2027-01-12,1,2027,RER,Real Estate Rackets,RER006,Lee Farkas - Colonial Bank Mortgage Fraud Mastermind,$2.9B,$15-30
+55,2027-01-19,1,2027,SF,Shadow Fortunes,SF043,How North Korea Launders Money with Crypto,$Billions,$18-35
+55,2027-01-19,1,2027,USM,USA Money Flow,UMF023,What the VA Pays for Prescription Drugs,$Billions,$15-30
+55,2027-01-19,1,2027,HH,Healthcare Heist,HH019,LabCorp & Quest - Unnecessary Testing Mills,Multiple Settlements,$18-35
+55,2027-01-19,1,2027,RER,Real Estate Rackets,RER007,Ameriquest - The Predatory Lending Pioneer,$325M Settlement,$15-30
+56,2027-01-26,1,2027,SF,Shadow Fortunes,SF044,Central Bank Digital Currencies: A Tool of Control?,Systemic,$18-35
+56,2027-01-26,1,2027,USM,USA Money Flow,UMF024,Humira: How One Drug Costs Taxpayers Billions,$20B+ Sales,$15-30
+56,2027-01-26,1,2027,HH,Healthcare Heist,HH020,340B Drug Pricing Loophole - Hospital Windfalls,$Billions,$18-35
+56,2027-01-26,1,2027,RER,Real Estate Rackets,RER008,Option One Mortgage - H&R Block Subprime Disaster,$Billions,$15-30
+57,2027-02-02,2,2027,SF,Shadow Fortunes,SF045,The Rise of Fintech Scams: Beyond Wirecard,$Billions,$18-35
+57,2027-02-02,2,2027,USM,USA Money Flow,UMF025,Drug Price Inflation vs. Federal Spending,$Billions,$15-30
+57,2027-02-02,2,2027,HH,Healthcare Heist,HH021,Purdue Pharma - OxyContin Death Machine,$8.3B Settlement,$18-35
+57,2027-02-02,2,2027,RER,Real Estate Rackets,RER009,Bear Stearns Mortgage Securities - First Domino to Fall,$Billions,$15-30
+58,2027-02-09,2,2027,SF,Shadow Fortunes,SF046,Human Trafficking Economics: World's $150B Black Market,$150B,$18-35
+58,2027-02-09,2,2027,USM,USA Money Flow,UMF026,The Pentagon's Top 50 Contractors Ranked,$400B+,$15-30
+58,2027-02-09,2,2027,HH,Healthcare Heist,HH022,J&J's Opioid Pipeline - Feeding the Crisis,$8.9B Settlement,$18-35
+58,2027-02-09,2,2027,RER,Real Estate Rackets,RER010,Robo-Signing Scandal - Banks Foreclosing Without Reading,Millions of Homes,$15-30
+59,2027-02-16,2,2027,SF,Shadow Fortunes,SF047,Sanction Evasion: Secret Routes That Keep Regimes Alive,Systemic,$18-35
+59,2027-02-16,2,2027,USM,USA Money Flow,UMF027,Lockheed Martin: How They Make $65 Billion,$65B Annually,$15-30
+59,2027-02-16,2,2027,HH,Healthcare Heist,HH023,Insys Therapeutics - Bribing Doctors for Fentanyl,Bankruptcy,$18-35
+59,2027-02-16,2,2027,RER,Real Estate Rackets,RER011,WeWork's Real Estate Shell Game - $47B to Near-Zero,$47B Collapse,$15-30
+60,2027-02-23,2,2027,SF,Shadow Fortunes,SF048,Rare Earth Metals: The Shadow War Behind Smartphones,$Billions,$18-35
+60,2027-02-23,2,2027,USM,USA Money Flow,UMF028,The F-35: Every Dollar Accounted For,$1.7T Program,$15-30
+60,2027-02-23,2,2027,HH,Healthcare Heist,HH024,Valeant's Price Gouging - 800% Drug Hikes,Stock Crash,$18-35
+60,2027-02-23,2,2027,RER,Real Estate Rackets,RER012,Brookfield's Mall Empire - Buying Dying Shopping Centers,$Billions,$15-30
+61,2027-03-02,3,2027,SF,Shadow Fortunes,SF049,The Resource Curse: Why Oil-Rich Nations Stay Poor,Systemic,$18-35
+61,2027-03-02,3,2027,USM,USA Money Flow,UMF029,No-Bid Defense Contracts: Who Gets Them,$Billions,$15-30
+61,2027-03-02,3,2027,HH,Healthcare Heist,HH025,Mylan's EpiPen - $100 to $600 Price Explosion,$465M Settlement,$18-35
+61,2027-03-02,3,2027,RER,Real Estate Rackets,RER013,Evergrande Collapse - China's $300B Real Estate Ponzi,$300B,$15-30
+61,2027-03-02,3,2027,PMF,Political Money Flow,PMF001,Nancy Pelosi's Stock Trades - Speaker of the Portfolio,$Millions,$15-28
+62,2027-03-09,3,2027,SF,Shadow Fortunes,SF050,Black Markets in Wartime: How Conflict Breeds Secret Wealth,$Billions,$18-35
+62,2027-03-09,3,2027,USM,USA Money Flow,UMF030,Defense Spending by Congressional District,$Billions,$15-30
+62,2027-03-09,3,2027,HH,Healthcare Heist,HH026,Gilead's $1000/Pill Hepatitis C Cure - Sovaldi Pricing,$84K Treatment,$18-35
+62,2027-03-09,3,2027,RER,Real Estate Rackets,RER014,Starwood Capital's CMBS Games - Packaging Bad Loans,$Billions,$15-30
+62,2027-03-09,3,2027,PMF,Political Money Flow,PMF002,Richard Burr's COVID Stock Dump,$1.7M,$15-28
+63,2027-03-16,3,2027,USM,USA Money Flow,UMF031,Where EV Subsidies Actually Go,$Billions,$15-30
+63,2027-03-16,3,2027,HH,Healthcare Heist,HH027,Generic Drug Price-Fixing Cartel - 300+ Drugs,1000%+ Increases,$18-35
+63,2027-03-16,3,2027,RER,Real Estate Rackets,RER015,iStar Financial - CRE Lender That Nearly Imploded,$2B+ Losses,$15-30
+63,2027-03-16,3,2027,PMF,Political Money Flow,PMF003,Kelly Loeffler's Pandemic Trades,Senator + NYSE Chairman,$15-28
+64,2027-03-23,3,2027,USM,USA Money Flow,UMF032,Tesla's Government Money: Complete Analysis,$Billions,$15-30
+64,2027-03-23,3,2027,HH,Healthcare Heist,HH028,GlaxoSmithKline's $3B Fraud - Hiding Paxil Risks,$3B Settlement,$18-35
+64,2027-03-23,3,2027,RER,Real Estate Rackets,RER016,General Growth Properties - $27B Mall REIT Bankruptcy,$27B,$15-30
+64,2027-03-23,3,2027,PMF,Political Money Flow,PMF004,Dianne Feinstein's Husband's Trades,Decades of Timing,$15-28
+65,2027-03-30,3,2027,USM,USA Money Flow,UMF033,Clean Energy Winners and Losers,$Billions,$15-30
+65,2027-03-30,3,2027,HH,Healthcare Heist,HH029,Pfizer's $2.3B Bextra Settlement - Off-Label Marketing,$2.3B,$18-35
+65,2027-03-30,3,2027,RER,Real Estate Rackets,RER017,Stuyvesant Town - $5.4B Apartment Complex Disaster,$5.4B,$15-30
+65,2027-03-30,3,2027,PMF,Political Money Flow,PMF005,David Perdue - 2596 Trades in One Term,Most Active Ever,$15-28
+66,2027-04-06,4,2027,USM,USA Money Flow,UMF034,Battery Plant Subsidies: Who Gets Billions,$Billions,$15-30
+66,2027-04-06,4,2027,HH,Healthcare Heist,HH030,Abbott's Depakote Nursing Home Push - Sedating Elderly,$1.5B,$18-35
+66,2027-04-06,4,2027,RER,Real Estate Rackets,RER018,Hudson Yards Tax Break - $6B in Public Subsidies for Luxury,$6B Subsidies,$15-30
+66,2027-04-06,4,2027,PMF,Political Money Flow,PMF006,Tommy Tuberville's 130+ STOCK Act Violations,Still Serving,$15-28
+67,2027-04-13,4,2027,USM,USA Money Flow,UMF035,Solar and Wind Subsidies by Company,$Billions,$15-30
+67,2027-04-13,4,2027,HH,Healthcare Heist,HH031,Ranbaxy - Indian Generic Giant Built on Fraud,$500M,$18-35
+67,2027-04-13,4,2027,RER,Real Estate Rackets,RER019,Kushner Companies' 666 Fifth Avenue - $1.8B Bailout,$1.8B,$15-30
+67,2027-04-13,4,2027,PMF,Political Money Flow,PMF007,Dan Crenshaw's Defense Stock Trades,Committee Overlap,$15-28
+68,2027-04-20,4,2027,USM,USA Money Flow,UMF036,CoreCivic Federal Contracts Exposed,$Billions,$15-30
+68,2027-04-20,4,2027,HH,Healthcare Heist,HH032,Insulin Price Conspiracy - Why Diabetics Pay $300/Vial,Ongoing Litigation,$18-35
+68,2027-04-20,4,2027,RER,Real Estate Rackets,RER020,Office Apocalypse 2024 - $1.5 Trillion CRE Crisis,$1.5T at Risk,$15-30
+68,2027-04-20,4,2027,PMF,Political Money Flow,PMF008,Josh Gottheimer's Tech Trades on Committees,Suspicious Timing,$15-28
+69,2027-04-27,4,2027,USM,USA Money Flow,UMF037,GEO Group: Detention Center Profits,$Billions,$15-30
+69,2027-04-27,4,2027,HH,Healthcare Heist,HH033,WellCare's $400M Medicaid Fraud - Hiding Profits,$400M,$18-35
+69,2027-04-27,4,2027,RER,Real Estate Rackets,RER021,Blackstone's Invitation Homes - Wall Street Becomes Landlord,80K+ Homes,$15-30
+69,2027-04-27,4,2027,PMF,Political Money Flow,PMF009,Citizens United - How Corporations Became People,Foundational Case,$15-28
+70,2027-05-04,5,2027,USM,USA Money Flow,UMF038,Private Prison vs. Public: Cost Comparison,$Billions,$15-30
+70,2027-05-04,5,2027,HH,Healthcare Heist,HH034,UnitedHealth Medicare Advantage Overbilling - $Billions at Stake,$Billions,$18-35
+70,2027-05-04,5,2027,RER,Real Estate Rackets,RER022,Jared Kushner's Baltimore Slums - Suing Tenants Buildings Rot,Thousands of Units,$15-30
+70,2027-05-04,5,2027,PMF,Political Money Flow,PMF010,Dark Money Explained - The Untraceable Billions,$Billions,$15-28
+71,2027-05-11,5,2027,USM,USA Money Flow,UMF039,ICE Detention Spending: Where It Goes,$Billions,$15-30
+71,2027-05-11,5,2027,HH,Healthcare Heist,HH035,The Disability Mill - Exposed by 60 Minutes,Systemic,$18-35
+71,2027-05-11,5,2027,RER,Real Estate Rackets,RER023,Veritas Investments - San Francisco's Eviction Machine,300+ Buildings,$15-30
+71,2027-05-11,5,2027,PMF,Political Money Flow,PMF011,Lincoln Project's $90M Spending Mystery,$90M,$15-28
+72,2027-05-18,5,2027,USM,USA Money Flow,UMF040,Federal Prison Industry Contracts,$Billions,$15-30
+72,2027-05-18,5,2027,HH,Healthcare Heist,HH036,Health Insurance Churning - Short-Term Plan Trap,Ongoing,$18-35
+72,2027-05-18,5,2027,RER,Real Estate Rackets,RER024,Rent-to-Own Trap - Vision Property Management Scheme,Thousands of Victims,$15-30
+72,2027-05-18,5,2027,PMF,Political Money Flow,PMF012,Karl Rove's Crossroads GPS - Pioneer of Dark Money,$Hundreds of Millions,$15-28
+73,2027-05-25,5,2027,USM,USA Money Flow,UMF041,Infrastructure Bill: Where the Money Went,$1.2T,$15-30
+73,2027-05-25,5,2027,HH,Healthcare Heist,HH037,Prior Authorization Deaths - When Insurers Practice Medicine,Ongoing,$18-35
+73,2027-05-25,5,2027,RER,Real Estate Rackets,RER025,Airbnb's Housing Crisis - Short-Term Rentals Kill Neighborhoods,Millions of Units,$15-30
+73,2027-05-25,5,2027,PMF,Political Money Flow,PMF013,Priorities USA - Democratic Super PAC Machine,$Hundreds of Millions,$15-28
+73,2027-05-25,5,2027,TC,Tax Crimes,TC001,Wesley Snipes - The $15 Million 861 Argument Disaster,$15M,$20-38
+74,2027-06-01,6,2027,USM,USA Money Flow,UMF042,Highway Construction: Cost Overruns Exposed,$Billions,$15-30
+74,2027-06-01,6,2027,HH,Healthcare Heist,HH038,The PBM Middlemen - How Drug Prices Get Inflated,Ongoing,$18-35
+74,2027-06-01,6,2027,RER,Real Estate Rackets,RER026,Mobile Home Park Private Equity - Raising Lot Rents on Captives,100K+ Lots,$15-30
+74,2027-06-01,6,2027,PMF,Political Money Flow,PMF014,Scam PACs - Fundraising Operations Keep 90%,$Billions Raised,$15-28
+74,2027-06-01,6,2027,TC,Tax Crimes,TC002,Nicolas Cage - How a $150 Million Fortune Became $6 Million in Tax Debt,$6M Debt,$20-38
+75,2027-06-08,6,2027,USM,USA Money Flow,UMF043,Bridge Repair Spending vs. Actual Conditions,$Billions,$15-30
+75,2027-06-08,6,2027,HH,Healthcare Heist,HH039,The Essure Sterilization Nightmare - Bayer's Deadly Implant,27K+ Reports,$18-35
+75,2027-06-08,6,2027,RER,Real Estate Rackets,RER027,NYC Preferential Rent Scam - Landlords' Legal Rent Hike Loophole,Millions Affected,$15-30
+75,2027-06-08,6,2027,PMF,Political Money Flow,PMF015,MAGA PACs - Where Small Donor Money Actually Goes,Legal Fees + Consultants,$15-28
+75,2027-06-08,6,2027,TC,Tax Crimes,TC003,Lauryn Hill - The Fugees Singer Who Stopped Filing for 6 Years,$1.8M,$20-38
+76,2027-06-15,6,2027,USM,USA Money Flow,UMF044,Top Infrastructure Contractors Ranked,$Billions,$15-30
+76,2027-06-15,6,2027,HH,Healthcare Heist,HH040,J&J's Metal Hip Replacements - Poisoning Patients,$2.5B Settlements,$18-35
+76,2027-06-15,6,2027,RER,Real Estate Rackets,RER028,Tenant Blacklisting - Secret Databases That Block Renters,Millions of Names,$15-30
+76,2027-06-15,6,2027,PMF,Political Money Flow,PMF016,Blue PAC Grift - Liberal Scam Operations Exposed,$Millions,$15-28
+76,2027-06-15,6,2027,TC,Tax Crimes,TC004,Willie Nelson - The $16.7 Million IRS Seizure,$16.7M,$20-38
+77,2027-06-22,6,2027,USM,USA Money Flow,UMF045,Transit System Federal Funding Breakdown,$Billions,$15-30
+77,2027-06-22,6,2027,HH,Healthcare Heist,HH041,Transvaginal Mesh Disaster - $8B+ Settlements,$8B+,$18-35
+77,2027-06-22,6,2027,RER,Real Estate Rackets,RER029,EB-5 Visa Fraud Epidemic - Selling Green Cards for Bad Projects,$Billions,$15-30
+77,2027-06-22,6,2027,PMF,Political Money Flow,PMF017,The $14B Election - Most Expensive Ever,$14B,$15-28
+77,2027-06-22,6,2027,TC,Tax Crimes,TC005,Martha Stewart - The Tax Case Before the Insider Trading,Millions,$20-38
+78,2027-06-29,6,2027,USM,USA Money Flow,UMF046,Who Really Gets Farm Subsidies,$20B+ Annually,$15-30
+78,2027-06-29,6,2027,HH,Healthcare Heist,HH042,Medtronic's Sprint Fidelis - Defibrillator That Killed,13+ Deaths,$18-35
+78,2027-06-29,6,2027,RER,Real Estate Rackets,RER030,Fontainebleau Las Vegas - $2.9B Unfinished Casino,$2.9B,$15-30
+78,2027-06-29,6,2027,PMF,Political Money Flow,PMF018,Bob Menendez - Senator Indicted Twice,Gold Bars in Closet,$15-28
+78,2027-06-29,6,2027,TC,Tax Crimes,TC006,Pete Rose - Gambling Winnings He Forgot to Report,$366K,$20-38
+79,2027-07-06,7,2027,USM,USA Money Flow,UMF047,Crop Insurance: Government Payments to Insurers,$10B+ Annually,$15-30
+79,2027-07-06,7,2027,HH,Healthcare Heist,HH043,St. Jude's Defective Heart Devices - 2000+ Injuries,2000+ Injuries,$18-35
+79,2027-07-06,7,2027,RER,Real Estate Rackets,RER031,American Dream Mall - $5B Retail Disaster,$5B,$15-30
+79,2027-07-06,7,2027,PMF,Political Money Flow,PMF019,Duke Cunningham - $2.4M Bribery Menu,$2.4M,$15-28
+79,2027-07-06,7,2027,TC,Tax Crimes,TC007,Leona Helmsley - Only the Little People Pay Taxes,$1.2M,$20-38
+80,2027-07-13,7,2027,USM,USA Money Flow,UMF048,USDA Contracts: Food Programs and Suppliers,$Billions,$15-30
+80,2027-07-13,7,2027,HH,Healthcare Heist,HH044,Theranos Blood Test Fantasy - Elizabeth Holmes' Fraud,$9B Valuation,$18-35
+80,2027-07-13,7,2027,RER,Real Estate Rackets,RER032,Faena Miami - $1B Development That Bankrupted Partners,$1B,$15-30
+80,2027-07-13,7,2027,PMF,Political Money Flow,PMF020,Rod Blagojevich - Selling Obama's Senate Seat,It's F***ing Golden,$15-28
+80,2027-07-13,7,2027,TC,Tax Crimes,TC008,Sophia Loren - The Italian Icon's Tax Prison Sentence,Millions,$20-38
+81,2027-07-20,7,2027,USM,USA Money Flow,UMF049,Disaster Relief: Where FEMA Money Goes,$Billions,$15-30
+81,2027-07-20,7,2027,HH,Healthcare Heist,HH045,The Nursing Home Private Equity Playbook - Profits Over Patients,Higher Death Rates,$18-35
+81,2027-07-20,7,2027,RER,Real Estate Rackets,RER033,Atlantic Yards/Pacific Park - Brooklyn's 20-Year Broken Promise,$Billions,$15-30
+81,2027-07-20,7,2027,PMF,Political Money Flow,PMF021,William Jefferson - $90K in the Freezer,$90K Cash,$15-28
+81,2027-07-20,7,2027,TC,Tax Crimes,TC009,Richard Hatch - Survivor Winner Who Didn't Pay on $1 Million,$1M,$20-38
+82,2027-07-27,7,2027,USM,USA Money Flow,UMF050,Foreign Aid Contractors: Who Delivers US Aid,$Billions,$15-30
+82,2027-07-27,7,2027,HH,Healthcare Heist,HH046,Life Care Centers - Largest COVID Nursing Home Outbreak,129 Cases 35 Deaths,$18-35
+82,2027-07-27,7,2027,RER,Real Estate Rackets,RER034,Hudson's Site Detroit - Stalled $900M Development,$900M,$15-30
+82,2027-07-27,7,2027,PMF,Political Money Flow,PMF022,Dennis Hastert - Speaker Paying Hush Money,$3.5M,$15-28
+82,2027-07-27,7,2027,TC,Tax Crimes,TC010,Ja Rule - The Fyre Festival Rapper's Tax Problems,$3M,$20-38
+83,2027-08-03,8,2027,HH,Healthcare Heist,HH047,Genesis Healthcare Understaffing Crisis - 500+ Facilities,$53M Settlement,$18-35
+83,2027-08-03,8,2027,RER,Real Estate Rackets,RER035,SoFla Condo Collapse Culture - Surfside Was Predictable,98 Deaths,$15-30
+83,2027-08-03,8,2027,PMF,Political Money Flow,PMF023,Chris Collins - Insider Trading from White House Lawn,Congressional Picnic,$15-28
+83,2027-08-03,8,2027,TC,Tax Crimes,TC011,UBS Swiss Bank Crackdown - The $780 Million Settlement,$780M,$20-38
+84,2027-08-10,8,2027,HH,Healthcare Heist,HH048,Guardian Exploitation - Judges Appointing Crooked Conservators,Ongoing,$18-35
+84,2027-08-10,8,2027,RER,Real Estate Rackets,RER036,Oceanwide Plaza Ghost Towers - $1B Abandoned Downtown LA,$1B,$15-30
+84,2027-08-10,8,2027,PMF,Political Money Flow,PMF024,Corrine Brown - Fake Charity Real Prison Time,One Door for Education,$15-28
+84,2027-08-10,8,2027,TC,Tax Crimes,TC012,Credit Suisse Guilty Plea - Aiding Tax Evasion,$2.6B,$20-38
+85,2027-08-17,8,2027,HH,Healthcare Heist,HH049,Sabra Healthcare REIT - Landlords Extracting Nursing Home Profits,Ongoing,$18-35
+85,2027-08-17,8,2027,RER,Real Estate Rackets,RER037,American Realty Capital - $23B Accounting Fraud,$23B,$15-30
+85,2027-08-17,8,2027,PMF,Political Money Flow,PMF025,Aaron Schock - The Downton Abbey Office,$100K+ Renovation,$15-28
+85,2027-08-17,8,2027,TC,Tax Crimes,TC013,The Brockman Indictment - $2 Billion Largest Tax Evasion Case,$2B,$20-38
+85,2027-08-17,8,2027,WSP,Wall Street Predators,WSP001,Carl Icahn's TWA Takeover: How He Made $469M Destroying an Airline,$469M,$18-35
+86,2027-08-24,8,2027,HH,Healthcare Heist,HH050,Hospice Fraud Factories - Patients Who Lived for Years,Ongoing,$18-35
+86,2027-08-24,8,2027,RER,Real Estate Rackets,RER038,Cole Credit Property Trust - Non-Traded REIT Disaster,$Billions,$15-30
+86,2027-08-24,8,2027,PMF,Political Money Flow,PMF026,Chaka Fattah - RICO Racketeering Bribery,Organized Crime Charges,$15-28
+86,2027-08-24,8,2027,TC,Tax Crimes,TC014,HSBC Swiss Leaks - How 100000 Accounts Were Exposed,$Billions,$20-38
+86,2027-08-24,8,2027,WSP,Wall Street Predators,WSP002,T. Boone Pickens' Greenmail Empire: $500M Without Buying Companies,$500M,$18-35
+87,2027-08-31,8,2027,RER,Real Estate Rackets,RER039,Inland Western Retail Trust - Mall REIT That Cratered,$6.8B,$15-30
+87,2027-08-31,8,2027,PMF,Political Money Flow,PMF027,Michael Grimm - Tax Fraud Congressman,Threatened Reporter,$15-28
+87,2027-08-31,8,2027,TC,Tax Crimes,TC015,Panama Papers Prosecutions - Who Actually Went to Jail,$Billions,$20-38
+87,2027-08-31,8,2027,WSP,Wall Street Predators,WSP003,Michael Milken's Junk Bond Machine: Financing the Raiders,$600M Fine,$18-35
+88,2027-09-07,9,2027,RER,Real Estate Rackets,RER040,GPB Capital - $1.8B Private Placement Ponzi,$1.8B,$15-30
+88,2027-09-07,9,2027,PMF,Political Money Flow,PMF028,Jack Abramoff - The Lobbyist Who Went to Prison,Superlobbyist Fall,$15-28
+88,2027-09-07,9,2027,TC,Tax Crimes,TC016,Pandora Papers Follow-Up - The World Leaders Edition,$Billions,$20-38
+88,2027-09-07,9,2027,WSP,Wall Street Predators,WSP004,The RJR Nabisco Battle: $25B Barbarians at the Gate,$25B,$18-35
+89,2027-09-14,9,2027,RER,Real Estate Rackets,RER041,Woodbridge Group - $1.3B Real Estate Ponzi Scheme,$1.3B,$15-30
+89,2027-09-14,9,2027,PMF,Political Money Flow,PMF029,Tony Podesta's Foreign Lobbying Empire,Ukraine + Saudi Arabia,$15-28
+89,2027-09-14,9,2027,TC,Tax Crimes,TC017,The Liechtenstein Tax Affair - Germany's Data Theft Prosecution,$Billions,$20-38
+89,2027-09-14,9,2027,WSP,Wall Street Predators,WSP005,Asher Edelman's Art of Corporate Raiding,$Millions,$18-35
+89,2027-09-14,9,2027,BB,Bankruptcy Billions,BB001,Sears: Eddie Lampert's 15-Year Controlled Demolition,$134B,$15-28
+90,2027-09-21,9,2027,RER,Real Estate Rackets,RER042,1031 Exchange Fraud - Qualified Intermediaries Who Stole,$Hundreds of Millions,$15-30
+90,2027-09-21,9,2027,PMF,Political Money Flow,PMF030,Billy Tauzin - Congressman to PhRMA to $Millions,$2M/Year,$15-28
+90,2027-09-21,9,2027,TC,Tax Crimes,TC018,Julius Baer Bank - Swiss Private Banking Guilty Plea,$547M,$20-38
+90,2027-09-21,9,2027,WSP,Wall Street Predators,WSP006,Victor Posner's Empire of Shells: The Original Asset Stripper,$Billions,$18-35
+90,2027-09-21,9,2027,BB,Bankruptcy Billions,BB002,Toys R Us: How PE Used Bankruptcy to Extract Final Fees,$6.6B,$15-28
+91,2027-09-28,9,2027,RER,Real Estate Rackets,RER043,Crowdfunding Real Estate Fraud - Fundrise Competitors Failed,$Hundreds of Millions,$15-30
+91,2027-09-28,9,2027,PMF,Political Money Flow,PMF031,Tom Daschle's Post-Senate Lobbying Fortune,Healthcare Industry,$15-28
+91,2027-09-28,9,2027,TC,Tax Crimes,TC019,Wegelin Bank - The First Swiss Bank Killed by US DOJ,$58M,$20-38
+91,2027-09-28,9,2027,WSP,Wall Street Predators,WSP007,Sir James Goldsmith: The Transatlantic Raider,$500M,$18-35
+91,2027-09-28,9,2027,BB,Bankruptcy Billions,BB003,J.C. Penney: Three Bankruptcies in Three Ownership Structures,$Billions,$15-28
+92,2027-10-05,10,2027,RER,Real Estate Rackets,RER044,Syndicated Conservation Easements - IRS's #1 Tax Scam,$Billions,$15-30
+92,2027-10-05,10,2027,PMF,Political Money Flow,PMF032,Boeing Revolving Door - Pentagon to Contractor,Defense Officials,$15-28
+92,2027-10-05,10,2027,TC,Tax Crimes,TC020,Stanford's Hidden Billions - Where Did the Offshore Money Go?,$8B,$20-38
+92,2027-10-05,10,2027,WSP,Wall Street Predators,WSP008,Saul Steinberg's Reliance Group: Insurance Money as War Chest,$4.5B,$18-35
+92,2027-10-05,10,2027,BB,Bankruptcy Billions,BB004,Neiman Marcus: Pre-Bankruptcy Asset Stripping,$1.8B,$15-28
+93,2027-10-12,10,2027,RER,Real Estate Rackets,RER045,Deed Theft - Stealing Homes Through Forged Documents,Thousands of Homes,$15-30
+93,2027-10-12,10,2027,PMF,Political Money Flow,PMF033,AIPAC's $100M Campaign,$100M,$15-28
+93,2027-10-12,10,2027,TC,Tax Crimes,TC021,Apple's Irish Tax Deal - The €13 Billion Ruling,€13B,$20-38
+93,2027-10-12,10,2027,WSP,Wall Street Predators,WSP009,Ronald Perelman's Revlon LBO: $1.8B Hostile Success,$1.8B,$18-35
+93,2027-10-12,10,2027,BB,Bankruptcy Billions,BB005,"Lord & Taylor: America's Oldest Store, Emptied and Discarded",$Millions,$15-28
+94,2027-10-19,10,2027,RER,Real Estate Rackets,RER046,Foreclosure Rescue Scams - Promising to Save Stealing Homes,$Billions,$15-30
+94,2027-10-19,10,2027,PMF,Political Money Flow,PMF034,Pharma's $300M Lobbying Machine,$300M,$15-28
+94,2027-10-19,10,2027,TC,Tax Crimes,TC022,Google Double Irish Dutch Sandwich - How It Worked,$Billions,$20-38
+94,2027-10-19,10,2027,WSP,Wall Street Predators,WSP010,The Kohlberg Kravis Roberts (KKR) Method: Inventing the Modern LBO,$Billions,$18-35
+94,2027-10-19,10,2027,BB,Bankruptcy Billions,BB006,Forever 21: How Family Kept Millions While Employees Got Nothing,$Millions,$15-28
+95,2027-10-26,10,2027,RER,Real Estate Rackets,RER047,MERS - Shell Company That Owns Your Mortgage,60M+ Mortgages,$15-30
+95,2027-10-26,10,2027,PMF,Political Money Flow,PMF035,STOCK Act - The Law Congress Wrote to Ignore,Loopholes by Design,$15-28
+95,2027-10-26,10,2027,TC,Tax Crimes,TC023,Amazon Luxembourg Structure - Zero Tax on Billions,$Billions,$20-38
+95,2027-10-26,10,2027,WSP,Wall Street Predators,WSP011,Toys R Us: How PE Killed an Icon for $200M in Fees,$6.6B,$18-35
+95,2027-10-26,10,2027,BB,Bankruptcy Billions,BB007,Payless ShoeSource: Bankrupted Twice in Two Years,$2B,$15-28
+96,2027-11-02,11,2027,RER,Real Estate Rackets,RER048,Zombie Foreclosures - Banks Abandoning Properties Mid-Process,300K+ Homes,$15-30
+96,2027-11-02,11,2027,PMF,Political Money Flow,PMF036,Why Congress Won't Ban Congressional Trading,Math of Self-Regulation,$15-28
+96,2027-11-02,11,2027,TC,Tax Crimes,TC024,Starbucks UK - The Tax Outrage That Changed Nothing,$Millions,$20-38
+96,2027-11-02,11,2027,WSP,Wall Street Predators,WSP012,TXU Energy: The $45B LBO That Became Biggest Bankruptcy,$45B,$18-35
+96,2027-11-02,11,2027,BB,Bankruptcy Billions,BB008,"Gymboree: Bankrupted by Bain Capital, Then Bankrupted Again",$Millions,$15-28
+97,2027-11-09,11,2027,RER,Real Estate Rackets,RER049,Reverse Mortgage Nightmares - Seniors Losing Homes to Fine Print,Thousands of Seniors,$15-30
+97,2027-11-09,11,2027,PMF,Political Money Flow,PMF037,Gerrymandering as Investment - Districts for Donors,Safe Seats Created,$15-28
+97,2027-11-09,11,2027,TC,Tax Crimes,TC025,Caterpillar's Swiss Shuffle - $2.4 Billion Investigation,$2.4B,$20-38
+97,2027-11-09,11,2027,WSP,Wall Street Predators,WSP013,Caesar's Entertainment: How Apollo Made Billions While It Died,$27.8B,$18-35
+97,2027-11-09,11,2027,BB,Bankruptcy Billions,BB009,Pier 1 Imports: COVID Scapegoat for PE Mismanagement,$Millions,$15-28
+97,2027-11-09,11,2027,CC,Cartel Capital,CC001,El Chapo's $14B Empire: How Sinaloa Cartel Laundered Billions,$14B,$18-32
+98,2027-11-16,11,2027,RER,Real Estate Rackets,RER050,Heir Property Theft - Developers Steal Generational Wealth,$Billions Black Wealth,$15-30
+98,2027-11-16,11,2027,PMF,Political Money Flow,PMF038,Judicial Elections - How Money Buys Courts,State Supreme Courts,$15-28
+98,2027-11-16,11,2027,TC,Tax Crimes,TC026,Microsoft's Puerto Rico Tax Strategy,$Billions,$20-38
+98,2027-11-16,11,2027,WSP,Wall Street Predators,WSP014,"Hertz: Three PE Owners, One Dead Company",$15B,$18-35
+98,2027-11-16,11,2027,BB,Bankruptcy Billions,BB010,Barneys New York: Luxury Brand Killed by Greed,$Millions,$15-28
+98,2027-11-16,11,2027,CC,Cartel Capital,CC002,CJNG's Avocado Empire: How Cartels Legitimized Through Produce,$3B,$18-32
+99,2027-11-23,11,2027,PMF,Political Money Flow,PMF039,Billionaire Primary - How Mega-Donors Pick,Before Voters Vote,$15-28
+99,2027-11-23,11,2027,TC,Tax Crimes,TC027,Facebook Ireland - How $9 Billion Moved Offshore,$9B,$20-38
+99,2027-11-23,11,2027,WSP,Wall Street Predators,WSP015,The Tribune Company Sam Zell LBO: $8.2B Destroyed Newspapers,$8.2B,$18-35
+99,2027-11-23,11,2027,BB,Bankruptcy Billions,BB011,Chesapeake Energy: Aubrey McClendon's $50B Natural Gas Bet,$9B,$15-28
+99,2027-11-23,11,2027,CC,Cartel Capital,CC003,"Los Zetas Bank Racehorse Scheme: $1M Races, Cartel Money",$Millions,$18-32
+100,2027-11-30,11,2027,PMF,Political Money Flow,PMF040,Foreign Money in U.S. Elections - Enforcement Gap,Illegal But Rarely Prosecuted,$15-28
+100,2027-11-30,11,2027,TC,Tax Crimes,TC028,KPMG Tax Shelter Scandal - When Accountants Become Criminals,$Billions,$20-38
+100,2027-11-30,11,2027,WSP,Wall Street Predators,WSP016,Simmons Bedding: Bankrupted Seven Times by PE Owners,$Millions,$18-35
+100,2027-11-30,11,2027,BB,Bankruptcy Billions,BB012,"Pacific Gas & Electric: Killed 84 People, Got Bankruptcy Protection",$30B,$15-28
+100,2027-11-30,11,2027,CC,Cartel Capital,CC004,Gulf Cartel's Pemex Oil Theft: $1.5B Annual Fuel Racket,$1.5B,$18-32
+101,2027-12-07,12,2027,PMF,Political Money Flow,PMF041,Why Campaign Finance Reform Always Fails,50 Years of Failure,$15-28
+101,2027-12-07,12,2027,TC,Tax Crimes,TC029,Bradley Birkenfeld - $104 Million Whistleblower Reward,$104M Reward,$20-38
+101,2027-12-07,12,2027,WSP,Wall Street Predators,WSP017,J.Crew's Mickey Drexler vs. PE Owners Downfall,$3B,$18-35
+101,2027-12-07,12,2027,BB,Bankruptcy Billions,BB013,Peabody Energy: Coal's Largest Bankruptcy ($10B),$10B,$15-28
+101,2027-12-07,12,2027,CC,Cartel Capital,CC005,Tijuana Cartel's Baja California Real Estate Boom,$Billions,$18-32
+102,2027-12-14,12,2027,PMF,Political Money Flow,PMF042,George Santos - The Fabricated Donor Network,Fake Donors Fake Everything,$15-28
+102,2027-12-14,12,2027,TC,Tax Crimes,TC030,The Anonymous Swiss Banker - $1.3 Million FATCA Bounty,$1.3M,$20-38
+102,2027-12-14,12,2027,WSP,Wall Street Predators,WSP018,Guitar Center: How Private Equity Silenced Music Retail,$2.1B,$18-35
+102,2027-12-14,12,2027,BB,Bankruptcy Billions,BB014,Alpha Natural Resources: Another $3B Coal Collapse,$3B,$15-28
+102,2027-12-14,12,2027,CC,Cartel Capital,CC006,Sinaloa's Chinese Money Laundering: Fentanyl to Yuan,$Billions,$18-32
+103,2027-12-21,12,2027,PMF,Political Money Flow,PMF043,ActBlue's Smurfing Problem - Donors Who Don't Exist,"Elderly ""Donors"" Thousands",$15-28
+103,2027-12-21,12,2027,TC,Tax Crimes,TC031,Scott London KPMG Leak - Golf Course Insider Trading,$1M,$20-38
+103,2027-12-21,12,2027,WSP,Wall Street Predators,WSP019,"Payless ShoeSource: PE's Role in 3,400 Store Closures",$2B,$18-35
+103,2027-12-21,12,2027,BB,Bankruptcy Billions,BB015,Consol Energy: Pittsburgh's Coal Giant's Controlled Break-Up,$Billions,$15-28
+103,2027-12-21,12,2027,CC,Cartel Capital,CC007,La Familia Michoacana's Mining Operations: Iron Ore as Cash,$1B,$18-32
+104,2027-12-28,12,2027,PMF,Political Money Flow,PMF044,Steve Bannon's We Build the Wall Fraud,$25M Fundraiser Yacht,$15-28
+104,2027-12-28,12,2027,TC,Tax Crimes,TC032,Walter Anderson - The $365 Million Tax Fugitive,$365M,$20-38
+104,2027-12-28,12,2027,WSP,Wall Street Predators,WSP020,Red Lobster: How Golden Gate Stripped the Real Estate,$Billions,$18-35
+104,2027-12-28,12,2027,BB,Bankruptcy Billions,BB016,Murray Energy: Coal Baron Bob Murray's Political Bankruptcy,$Billions,$15-28
+104,2027-12-28,12,2027,CC,Cartel Capital,CC008,Vicente Carrillo Fuentes' Art Collection: $100M in Laundered Paintings,$100M,$18-32
+105,2028-01-04,1,2028,PMF,Political Money Flow,PMF045,Duncan Hunter's Campaign Fund Lifestyle,$250K Personal Use,$15-28
+105,2028-01-04,1,2028,TC,Tax Crimes,TC033,Michael Kors Co-Founder - The $500 Million Fraud,$500M,$20-38
+105,2028-01-04,1,2028,WSP,Wall Street Predators,WSP021,Bill Ackman's Herbalife Short: $1B Bet on Pyramid Scheme,$1B,$18-35
+105,2028-01-04,1,2028,BB,Bankruptcy Billions,BB017,Diamond Offshore Drilling: $2.7B Offshore Rig Bankruptcy,$2.7B,$15-28
+105,2028-01-04,1,2028,CC,Cartel Capital,CC009,Beltran-Leyva Cartel's Casino Empire: Puebla Gaming Money,$Millions,$18-32
+105,2028-01-04,1,2028,EI,Early Intel,EI001,Raj Rajaratnam: The $63M Galleon Group Wiretap Case,$63M,$15-28
+106,2028-01-11,1,2028,PMF,Political Money Flow,PMF046,Jesse Jackson Jr's Campaign Spending Spree,$750K Furs Memorabilia,$15-28
+106,2028-01-11,1,2028,TC,Tax Crimes,TC034,Beanie Babies Billionaire - Ty Warner's Swiss Account,$5.6B Estate,$20-38
+106,2028-01-11,1,2028,WSP,Wall Street Predators,WSP022,Elliott Management's Argentina Debt Fight: Seizing Navy Ship,$2.4B,$18-35
+106,2028-01-11,1,2028,BB,Bankruptcy Billions,BB018,California Resources Corporation: Occidental's Liability Dump,$6B,$15-28
+106,2028-01-11,1,2028,CC,Cartel Capital,CC010,El Mencho's Cryptocurrency Adoption: CJNG's Bitcoin Strategy,$Millions,$18-32
+106,2028-01-11,1,2028,EI,Early Intel,EI002,"Steven Cohen's SAC Capital: $1.8B Fine, No Jail Time",$1.8B,$15-28
+107,2028-01-18,1,2028,PMF,Political Money Flow,PMF047,FTX's Political Donations - SBF Bought Both Parties,$70M+ Bipartisan,$15-28
+107,2028-01-18,1,2028,TC,Tax Crimes,TC035,Marc Rich - Clinton Pardon Tax Fugitive,$Billions,$20-38
+107,2028-01-18,1,2028,WSP,Wall Street Predators,WSP023,Dan Loeb's Third Point vs. Yahoo: CEO Firing Campaign,$500M,$18-35
+107,2028-01-18,1,2028,BB,Bankruptcy Billions,BB019,General Motors: $50B Taxpayer Bailout and Bankruptcy,$50B,$15-28
+107,2028-01-18,1,2028,CC,Cartel Capital,CC011,Pablo Escobar's $30B: Where Did the Medellin Money Go?,$30B,$18-32
+107,2028-01-18,1,2028,EI,Early Intel,EI003,Rajat Gupta: Goldman Sachs Board Member Who Tipped Raj,$Millions,$15-28
+108,2028-01-25,1,2028,PMF,Political Money Flow,PMF048,Crypto's Capitol Hill Spending Spree,$100M+ Lobbying,$15-28
+108,2028-01-25,1,2028,TC,Tax Crimes,TC036,Paul Manafort Tax Fraud - Campaign Chairman's Hidden Millions,$60M,$20-38
+108,2028-01-25,1,2028,WSP,Wall Street Predators,WSP024,Nelson Peltz vs. Disney: $3B Fight for Board Seats,$3B,$18-35
+108,2028-01-25,1,2028,BB,Bankruptcy Billions,BB020,Chrysler: Fiat Merger Through Bankruptcy,$Billions,$15-28
+108,2028-01-25,1,2028,CC,Cartel Capital,CC012,The Cali Cartel's Legitimate Business Model: $7B Annual Revenue,$7B,$18-32
+108,2028-01-25,1,2028,EI,Early Intel,EI004,"Martha Stewart: $45K Profit, Prison Time",$45K,$15-28
+109,2028-02-01,2,2028,PMF,Political Money Flow,PMF049,Dinesh D'Souza's Straw Donor Scheme,$20K Illegal Bundling,$15-28
+109,2028-02-01,2,2028,TC,Tax Crimes,TC037,BitMEX Founders - Crypto Exchange Tax Evasion,Billions,$20-38
+109,2028-02-01,2,2028,WSP,Wall Street Predators,WSP025,Pershing Square's J.C. Penney Disaster: Ackman Lost $500M,$500M,$18-35
+109,2028-02-01,2,2028,BB,Bankruptcy Billions,BB021,Delphi: Auto Parts Pension Dumping Bankruptcy,$Billions,$15-28
+109,2028-02-01,2,2028,CC,Cartel Capital,CC013,Black Market Peso Exchange: The Engine of Colombian Laundering,$6-10B,$18-32
+109,2028-02-01,2,2028,EI,Early Intel,EI005,Mark Cuban's Mamma.com Trade: Acquitted Despite Suspicious Timing,$750K,$15-28
+110,2028-02-08,2,2028,PMF,Political Money Flow,PMF050,John Edwards' Mistress Cover-Up Fund,$1M+ Hush Money,$15-28
+110,2028-02-08,2,2028,TC,Tax Crimes,TC038,Coinbase John Doe Summons - Setting Crypto Tax Precedent,Thousands of Users,$20-38
+110,2028-02-08,2,2028,WSP,Wall Street Predators,WSP026,Starboard Value's Olive Garden Campaign: The Breadstick Manifesto,$Millions,$18-35
+110,2028-02-08,2,2028,BB,Bankruptcy Billions,BB022,Visteon: Ford Spin-Off Bankruptcy Strategy,$Billions,$15-28
+110,2028-02-08,2,2028,CC,Cartel Capital,CC014,Drogas La Rebaja: The Pharmacy Chain Built on Cocaine,$Billions,$18-32
+110,2028-02-08,2,2028,EI,Early Intel,EI006,Carl Icahn's Apple Tweets: Legal Front-Running?,Unknown,$15-28
+111,2028-02-15,2,2028,TC,Tax Crimes,TC039,Roger Ver - Bitcoin Jesus Expatriation Tax Battle,$Millions,$20-38
+111,2028-02-15,2,2028,WSP,Wall Street Predators,WSP027,ValueAct Capital's Microsoft Activism: Forced Ballmer Out,$2B,$18-35
+111,2028-02-15,2,2028,BB,Bankruptcy Billions,BB023,Takata Airbag: Bankruptcy Shields Liability $1B in Claims,$1B,$15-28
+111,2028-02-15,2,2028,CC,Cartel Capital,CC015,The North Valley Cartel's Wall Street Connections,$Millions,$18-32
+111,2028-02-15,2,2028,EI,Early Intel,EI007,Nelson Peltz's Heinz/Kraft Insider Trading Investigation,Unknown,$15-28
+112,2028-02-22,2,2028,TC,Tax Crimes,TC040,NFT Tax Evasion - The Art Market Goes Digital,$Millions,$20-38
+112,2028-02-22,2,2028,WSP,Wall Street Predators,WSP028,Jeff Smith's Salesforce Activism: Forced $10B Buybacks,$10B,$18-35
+112,2028-02-22,2,2028,BB,Bankruptcy Billions,BB024,Purdue Pharma: Sackler Family Shield Through Bankruptcy,$6B,$15-28
+112,2028-02-22,2,2028,CC,Cartel Capital,CC016,Colombian Real Estate Boom: Narco Money in Bogota High-Rises,$20B,$18-32
+112,2028-02-22,2,2028,EI,Early Intel,EI008,Larry Ellison's Trades: Oracle CEO's Perfect Timing,$1B+,$15-28
+113,2028-02-29,2,2028,TC,Tax Crimes,TC041,John McAfee - Crypto Guru's Tax Evasion Death,$Millions,$20-38
+113,2028-02-29,2,2028,WSP,Wall Street Predators,WSP029,Paul Singer's Elliott Management: Argentina Holdout Victory,$2.4B,$18-35
+113,2028-02-29,2,2028,BB,Bankruptcy Billions,BB025,Mallinckrodt: Opioid Bankruptcy Protection,$Billions,$15-28
+113,2028-02-29,2,2028,CC,Cartel Capital,CC017,Soccer Teams as Laundries: America de Cali's Dirty Money,$Millions,$18-32
+113,2028-02-29,2,2028,EI,Early Intel,EI009,Jeff Bezos' Amazon Sale Schedule: Legal But Suspicious,$6B+,$15-28
+113,2028-02-29,2,2028,SG,Startup Graveyard,SG001,Quibi - $1.75 Billion Burned in 6 Months,$1.75B,$20-35
+114,2028-03-07,3,2028,TC,Tax Crimes,TC042,Kraken User Data - IRS Demands All Records,Millions of Users,$20-38
+114,2028-03-07,3,2028,WSP,Wall Street Predators,WSP030,Cerberus Capital's GMAC/Chrysler Double Play,$Billions,$18-35
+114,2028-03-07,3,2028,BB,Bankruptcy Billions,BB026,Endo Pharmaceuticals: Opioid Chapter 11,$Billions,$15-28
+114,2028-03-07,3,2028,CC,Cartel Capital,CC018,The Panama Papers' Colombian Connection: Mossack Fonseca's Cartel Clients,$Billions,$18-32
+114,2028-03-07,3,2028,EI,Early Intel,EI010,Elon Musk's Tesla Tweet Manipulation: $20M SEC Fine,$20M,$15-28
+114,2028-03-07,3,2028,SG,Startup Graveyard,SG002,Jawbone - $3 Billion Valuation to Liquidation,$3B,$20-35
+115,2028-03-14,3,2028,TC,Tax Crimes,TC043,Al Capone - The Original Tax Evasion Conviction,$215M (adjusted),$20-38
+115,2028-03-14,3,2028,WSP,Wall Street Predators,WSP031,Fortress Investment Group's Nationstar Mortgages,$Billions,$18-35
+115,2028-03-14,3,2028,BB,Bankruptcy Billions,BB027,Insys Therapeutics: Fentanyl Spray Fraud Bankruptcy,$Millions,$15-28
+115,2028-03-14,3,2028,CC,Cartel Capital,CC019,HSBC: $1.9B Cartel Money Laundering Fine,$1.9B,$18-32
+115,2028-03-14,3,2028,EI,Early Intel,EI011,Nancy Pelosi's $30M+ Portfolio: Legal But Questionable Timing,$30M+,$15-28
+115,2028-03-14,3,2028,SG,Startup Graveyard,SG003,Juicero - The $400 Juice Bag Squeezer,$120M Raised,$20-35
+116,2028-03-21,3,2028,TC,Tax Crimes,TC044,Spiro Agnew - Vice President Who Resigned for Tax Fraud,$Millions,$20-38
+116,2028-03-21,3,2028,WSP,Wall Street Predators,WSP032,Aurelius Capital's Puerto Rico Debt Fight,$Billions,$18-35
+116,2028-03-21,3,2028,BB,Bankruptcy Billions,BB028,Millennium Health: Urinalysis Fraud Bankruptcy,$Millions,$15-28
+116,2028-03-21,3,2028,CC,Cartel Capital,CC020,Wachovia: $378B in Drug Proceeds Processed,$378B,$18-32
+116,2028-03-21,3,2028,EI,Early Intel,EI012,Richard Burr's COVID Stock Dump: Pandemic Briefing to Trades,$1.6M,$15-28
+116,2028-03-21,3,2028,SG,Startup Graveyard,SG004,Essential Phone - Andy Rubin's $300 Million Sequel Flop,$300M,$20-35
+117,2028-03-28,3,2028,TC,Tax Crimes,TC045,The Kennedy Family Trust - How Dynasties Avoid Estate Taxes,$Billions,$20-38
+117,2028-03-28,3,2028,WSP,Wall Street Predators,WSP033,Baupost Group's Distressed Mortgage Bonds 2008,$Billions,$18-35
+117,2028-03-28,3,2028,BB,Bankruptcy Billions,BB029,PG&E Wildfire Bankruptcy: 84 Deaths,$30B,$15-28
+117,2028-03-28,3,2028,CC,Cartel Capital,CC021,Standard Chartered: Iran Sanctions Violations $1B,$1B,$18-32
+117,2028-03-28,3,2028,EI,Early Intel,EI013,Kelly Loeffler's 29 Trades in One Day After COVID Briefing,$Millions,$15-28
+117,2028-03-28,3,2028,SG,Startup Graveyard,SG005,Hyperloop One - $400 Million to Build 500 Meters of Tube,$400M,$20-35
+118,2028-04-04,4,2028,TC,Tax Crimes,TC046,Helmsley Enterprises - Beyond Leona's Personal Crimes,$Billions,$20-38
+118,2028-04-04,4,2028,WSP,Wall Street Predators,WSP034,Och-Ziff Capital's Africa Mining Deals,$Billions,$18-35
+118,2028-04-04,4,2028,BB,Bankruptcy Billions,BB030,Puerto Rico PREPA: $9B Power Authority Default,$9B,$15-28
+118,2028-04-04,4,2028,CC,Cartel Capital,CC022,Deutsche Bank: Russian Laundromat $10B Scandal,$10B,$18-32
+118,2028-04-04,4,2028,EI,Early Intel,EI014,The STOCK Act: Why It Doesn't Work,N/A,$15-28
+118,2028-04-04,4,2028,SG,Startup Graveyard,SG006,Katerra - $2 Billion Construction Tech Collapse,$2B,$20-35
+119,2028-04-11,4,2028,TC,Tax Crimes,TC047,Sun Myung Moon - Unification Church Tax Conviction,$Millions,$20-38
+119,2028-04-11,4,2028,WSP,Wall Street Predators,WSP035,Och-Ziff Bribery Scandal: Libya and DRC,$412M,$18-35
+119,2028-04-11,4,2028,BB,Bankruptcy Billions,BB031,Detroit Water & Sewerage: Municipal Bankruptcy,$Billions,$15-28
+119,2028-04-11,4,2028,CC,Cartel Capital,CC023,Danske Bank Estonia: $230B Money Laundering Scandal,$230B,$18-32
+119,2028-04-11,4,2028,EI,Early Intel,EI015,"David Perdue's 2,596 Trades While In Office",$15M,$15-28
+119,2028-04-11,4,2028,SG,Startup Graveyard,SG007,Arrivo - Hyperloop Competitor Dead in 18 Months,$Millions,$20-35
+120,2028-04-18,4,2028,TC,Tax Crimes,TC048,Chuck Berry - Rock Legend's Tax Prison Time,$Millions,$20-38
+120,2028-04-18,4,2028,WSP,Wall Street Predators,WSP036,Marathon Asset Management's Greece Debt Swap,$Billions,$18-35
+120,2028-04-18,4,2028,BB,Bankruptcy Billions,BB032,Flint Water Crisis: Bankruptcy Protection Strategy,$Millions,$15-28
+120,2028-04-18,4,2028,CC,Cartel Capital,CC024,Bank of New York: Russian Money Laundering 1990s,$7B,$18-32
+120,2028-04-18,4,2028,EI,Early Intel,EI016,Tom Price's Healthcare Stock Trades: HHS Secretary Resignation,$Millions,$15-28
+120,2028-04-18,4,2028,SG,Startup Graveyard,SG008,Zirtual - Virtual Assistants Who Ghosted Their Customers,$11M Raised,$20-35
+121,2028-04-25,4,2028,TC,Tax Crimes,TC049,Aldo Gucci - Fashion Dynasty Tax Scandal,$Millions,$20-38
+121,2028-04-25,4,2028,WSP,Wall Street Predators,WSP037,Carl Icahn vs. Apple: Demanding Capital Return,$Billions,$18-35
+121,2028-04-25,4,2028,BB,Bankruptcy Billions,BB033,"Trump Casinos: Four Bankruptcies, Same Owner",$Billions,$15-28
+121,2028-04-25,4,2028,CC,Cartel Capital,CC025,Liberty Reserve: $6B Digital Currency Money Laundering,$6B,$18-32
+121,2028-04-25,4,2028,EI,Early Intel,EI017,Chris Collins' Innate Immunotherapeutics Tip: Prison Time,$Millions,$15-28
+121,2028-04-25,4,2028,SG,Startup Graveyard,SG009,ScaleFactor - AI Accounting Startup That Did Books by Hand,$100M,$20-35
+121,2028-04-25,4,2028,LB,Legal Billions,LB001,Tobacco Master Settlement - $206 Billion Over 25 Years,$206B,$18-30
+122,2028-05-02,5,2028,TC,Tax Crimes,TC050,Joe Louis - How the IRS Destroyed a Champion,$1.25M Debt,$20-38
+122,2028-05-02,5,2028,WSP,Wall Street Predators,WSP038,Bill Ackman vs. Canadian Pacific Railway Turnaround,$Billions,$18-35
+122,2028-05-02,5,2028,BB,Bankruptcy Billions,BB034,Caesars Entertainment: Apollo's Debt Shuffling,$27.8B,$15-28
+122,2028-05-02,5,2028,CC,Cartel Capital,CC026,TD Bank: $3B Laundering Fine 2024,$3B,$18-32
+122,2028-05-02,5,2028,EI,Early Intel,EI018,James Inhofe's Perfect Timing: Defense Committee Trades,$Millions,$15-28
+122,2028-05-02,5,2028,SG,Startup Graveyard,SG010,Brandless - $240 Million to Sell $3 Products,$240M,$20-35
+122,2028-05-02,5,2028,LB,Legal Billions,LB002,Opioid Litigation - $50 Billion and Counting,$50B+,$18-30
+123,2028-05-09,5,2028,WSP,Wall Street Predators,WSP039,Pershing Square's Target Canada Disaster,$7B Loss,$18-35
+123,2028-05-09,5,2028,BB,Bankruptcy Billions,BB035,Revel Casino: Atlantic City's $2.4B Failure,$2.4B,$15-28
+123,2028-05-09,5,2028,CC,Cartel Capital,CC027,Triads: Hong Kong Real Estate Billions,$Billions,$18-32
+123,2028-05-09,5,2028,EI,Early Intel,EI019,Preet Bharara's Silicon Valley Roundup: 70+ Convictions,$Millions,$15-28
+123,2028-05-09,5,2028,SG,Startup Graveyard,SG011,Nikola - The Truck That Rolled Downhill,$3.3B Peak,$20-35
+123,2028-05-09,5,2028,LB,Legal Billions,LB003,BP Deepwater Horizon - $65 Billion Total Cost,$65B,$18-30
+124,2028-05-16,5,2028,WSP,Wall Street Predators,WSP040,Trian vs. Procter & Gamble: Nelson Peltz Board Fight,$Billions,$18-35
+124,2028-05-16,5,2028,BB,Bankruptcy Billions,BB036,Trump Plaza: Bondholders Wiped Out,$Millions,$15-28
+124,2028-05-16,5,2028,CC,Cartel Capital,CC028,Yakuza: Pachinko Gambling Empire Laundering,$Billions,$18-32
+124,2028-05-16,5,2028,EI,Early Intel,EI020,Mathew Martoma: $275M SAC Capital Insider Profit,$275M,$15-28
+124,2028-05-16,5,2028,SG,Startup Graveyard,SG012,Lordstown Motors - The EV Startup With No Factory Orders,$1.6B,$20-35
+124,2028-05-16,5,2028,LB,Legal Billions,LB004,Volkswagen Dieselgate - $30 Billion in Fines and Buybacks,$30B,$18-30
+125,2028-05-23,5,2028,WSP,Wall Street Predators,WSP041,Jana Partners' Whole Foods Push Led to Amazon Sale,$13.7B,$18-35
+125,2028-05-23,5,2028,BB,Bankruptcy Billions,BB037,WeWork: Failed IPO to Bankruptcy,$47B to $0,$15-28
+125,2028-05-23,5,2028,CC,Cartel Capital,CC029,Chinese Underground Banking: Vancouver Model,$Billions,$18-32
+125,2028-05-23,5,2028,EI,Early Intel,EI021,Roomy Khan: The Informant Who Exposed Everyone,$Millions,$15-28
+125,2028-05-23,5,2028,SG,Startup Graveyard,SG013,Clover Health - Chamath's Healthcare SPAC Disaster,$3.7B,$20-35
+125,2028-05-23,5,2028,LB,Legal Billions,LB005,PG&E Wildfire Settlements - $25 Billion,$25B,$18-30
+126,2028-05-30,5,2028,WSP,Wall Street Predators,WSP042,Starboard Value vs. Darden Restaurants Victory,$Millions,$18-35
+126,2028-05-30,5,2028,BB,Bankruptcy Billions,BB038,Peloton: Near-Bankruptcy Turnaround Attempt,$Billions,$15-28
+126,2028-05-30,5,2028,CC,Cartel Capital,CC030,1MDB: Goldman Sachs $4.5B Scandal,$4.5B,$18-32
+126,2028-05-30,5,2028,EI,Early Intel,EI022,Doug Whitman: Whitman Capital's Expert Network Abuse,$Millions,$15-28
+126,2028-05-30,5,2028,SG,Startup Graveyard,SG014,Canoo - The EV Company That Changed Plans Every Quarter,$2.4B Peak,$20-35
+126,2028-05-30,5,2028,LB,Legal Billions,LB006,3M Earplugs - $6 Billion for 300000 Veterans,$6B,$18-30
+127,2028-06-06,6,2028,WSP,Wall Street Predators,WSP043,Elliott Management's Twitter Campaign: Removed Jack Dorsey,$Billions,$18-35
+127,2028-06-06,6,2028,BB,Bankruptcy Billions,BB039,MoviePass: $20M/Month Cash Burn,$Millions,$15-28
+127,2028-06-06,6,2028,CC,Cartel Capital,CC031,Macau Casino: Junket Operator Money Laundering,$Billions,$18-32
+127,2028-06-06,6,2028,EI,Early Intel,EI023,Anthony Chiasson: Level Global Co-Founder's $68M Scheme,$68M,$15-28
+127,2028-06-06,6,2028,SG,Startup Graveyard,SG015,View Inc - Smart Glass Windows Nobody Wanted,$1.6B,$20-35
+127,2028-06-06,6,2028,LB,Legal Billions,LB007,Johnson & Johnson Talc/Opioid - $10 Billion Combined,$10B,$18-30
+128,2028-06-13,6,2028,WSP,Wall Street Predators,WSP044,Shopko Stores: Sun Capital's Liquidation,$1.1B,$18-35
+128,2028-06-13,6,2028,BB,Bankruptcy Billions,BB040,Quibi: Jeffrey Katzenberg's $1.75B Streaming Failure,$1.75B,$15-28
+128,2028-06-13,6,2028,CC,Cartel Capital,CC032,North Korea Bureau 39: Counterfeiting and Meth Empire,$Billions,$18-32
+128,2028-06-13,6,2028,EI,Early Intel,EI024,Todd Newman Conviction Overturned: Precedent Changed,N/A,$15-28
+128,2028-06-13,6,2028,SG,Startup Graveyard,SG016,Faraday Future - The EV Company Always Next Year,$3.4B,$20-35
+128,2028-06-13,6,2028,LB,Legal Billions,LB008,Wells Fargo Fake Accounts - $6 Billion Total Penalties,$6B,$18-30
+129,2028-06-20,6,2028,WSP,Wall Street Predators,WSP045,Marsh Supermarkets: Sun Capital Bankruptcy,$Millions,$18-35
+129,2028-06-20,6,2028,BB,Bankruptcy Billions,BB041,Hahnemann Hospital: Asset Stripping Philadelphia,$Millions,$15-28
+129,2028-06-20,6,2028,CC,Cartel Capital,CC033,'Ndrangheta: Cocaine Europe's $60B Syndicate,$60B,$18-32
+129,2028-06-20,6,2028,EI,Early Intel,EI025,Chip Skowron: FrontPoint Partners Doctor Network,$Millions,$15-28
+129,2028-06-20,6,2028,SG,Startup Graveyard,SG017,Desktop Metal - 3D Printing Promise to 90% Stock Drop,$5B Peak,$20-35
+129,2028-06-20,6,2028,LB,Legal Billions,LB009,Vioxx - $4.85 Billion for Hidden Heart Attack Risk,$4.85B,$18-30
+130,2028-06-27,6,2028,WSP,Wall Street Predators,WSP046,Sports Authority Bankruptcy: $1.1B Debt,$1.1B,$18-35
+130,2028-06-27,6,2028,BB,Bankruptcy Billions,BB042,Steward Health: PE Hospital Empire Collapse,$Billions,$15-28
+130,2028-06-27,6,2028,CC,Cartel Capital,CC034,Camorra: Naples Waste Management Rackets,$Billions,$18-32
+130,2028-06-27,6,2028,EI,Early Intel,EI026,Chris Eaton: FDA Chemist Who Sold Drug Approvals,$Millions,$15-28
+130,2028-06-27,6,2028,SG,Startup Graveyard,SG018,Bird Scooters - From $2.5 Billion to Bankruptcy,$2.5B Peak,$20-35
+130,2028-06-27,6,2028,LB,Legal Billions,LB010,Fen-Phen - $13 Billion Diet Drug Disaster,$13B,$18-30
+131,2028-07-04,7,2028,WSP,Wall Street Predators,WSP047,Tops Friendly Markets: Three Bankruptcies,$Millions,$18-35
+131,2028-07-04,7,2028,BB,Bankruptcy Billions,BB043,Community Health Systems: $15B Debt Crisis,$15B,$15-28
+131,2028-07-04,7,2028,CC,Cartel Capital,CC035,Russian Oligarch: Cyprus Money Laundering Hub,$Billions,$18-32
+131,2028-07-04,7,2028,EI,Early Intel,EI027,Richard Lee: SAC Capital Analyst's Doctor Tips,$Millions,$15-28
+131,2028-07-04,7,2028,SG,Startup Graveyard,SG019,WeWork - The $47 Billion Mirage,$47B Peak,$20-35
+131,2028-07-04,7,2028,LB,Legal Billions,LB011,Risperdal - $8 Billion for Breast Growth in Boys,$8B,$18-30
+132,2028-07-11,7,2028,WSP,Wall Street Predators,WSP048,Boston Market: Sun Capital's Collapse,$Millions,$18-35
+132,2028-07-11,7,2028,BB,Bankruptcy Billions,BB044,HCA Healthcare: Rick Scott Connection,$Billions,$15-28
+132,2028-07-11,7,2028,CC,Cartel Capital,CC036,Albanian Mafia: Europe Cannabis Trade Money,$Billions,$18-32
+132,2028-07-11,7,2028,EI,Early Intel,EI028,Sidney Gilman: The Doctor Who Destroyed His Legacy,$Millions,$15-28
+132,2028-07-11,7,2028,SG,Startup Graveyard,SG020,Oyo Rooms - The Hotel Startup That Cooked Its Books,$10B Peak,$20-35
+132,2028-07-11,7,2028,LB,Legal Billions,LB012,Zantac/Ranitidine - $2.3 Billion and Growing,$2.3B,$18-30
+133,2028-07-18,7,2028,WSP,Wall Street Predators,WSP049,Fairway Market: Sterling Investment Bankruptcy,$Millions,$18-35
+133,2028-07-18,7,2028,BB,Bankruptcy Billions,BB045,Red Lobster: The Landlord Scheme Bankruptcy,$Millions,$15-28
+133,2028-07-18,7,2028,CC,Cartel Capital,CC037,Kinahan Cartel: Dubai Operations and European Distribution,$Billions,$18-32
+133,2028-07-18,7,2028,EI,Early Intel,EI029,Yodlee Data Scraping for Insider Information,Unknown,$15-28
+133,2028-07-18,7,2028,SG,Startup Graveyard,SG021,Wag - The Dog Walking App SoftBank Abandoned,$650M,$20-35
+133,2028-07-18,7,2028,LB,Legal Billions,LB013,Roundup/Glyphosate - $11 Billion for Cancer Claims,$11B,$18-30
+134,2028-07-25,7,2028,WSP,Wall Street Predators,WSP050,Dean Foods Bankruptcy: America's Dairy Giant Falls,$Billions,$18-35
+134,2028-07-25,7,2028,BB,Bankruptcy Billions,BB046,California Pizza Kitchen: COVID + Debt Bankruptcy,$Millions,$15-28
+134,2028-07-25,7,2028,CC,Cartel Capital,CC038,Sicilian Cosa Nostra: Construction Industry Infiltration,$Billions,$18-32
+134,2028-07-25,7,2028,EI,Early Intel,EI030,Andrew Left's Citron Research: Short and Distort,$1.2M,$15-28
+134,2028-07-25,7,2028,SG,Startup Graveyard,SG022,Zume Pizza - Robot Pizza Maker to Industrial Composting,$375M,$20-35
+134,2028-07-25,7,2028,LB,Legal Billions,LB014,Actos - $2.4 Billion Bladder Cancer Settlement,$2.4B,$18-30
+135,2028-08-01,8,2028,BB,Bankruptcy Billions,BB047,Chuck E. Cheese: COVID + PE Debt,$Millions,$15-28
+135,2028-08-01,8,2028,CC,Cartel Capital,CC039,ISIS Oil Smuggling: $500M Annually,$500M,$18-32
+135,2028-08-01,8,2028,EI,Early Intel,EI031,Gowex WiFi Fraud: Spanish Tech Insider Collapse,$2B,$15-28
+135,2028-08-01,8,2028,SG,Startup Graveyard,SG023,Greensill Capital - The Supply Chain Finance Fraud,$Billions,$20-35
+135,2028-08-01,8,2028,LB,Legal Billions,LB015,Xarelto - $775 Million Blood Thinner Deaths,$775M,$18-30
+136,2028-08-08,8,2028,BB,Bankruptcy Billions,BB048,CoreCivic: Private Prison Financial Near-Misses,$Billions,$15-28
+136,2028-08-08,8,2028,CC,Cartel Capital,CC040,Hezbollah: Drug Trafficking Latin America,$Billions,$18-32
+136,2028-08-08,8,2028,EI,Early Intel,EI032,The 9/11 Put Options: United/American Airlines Suspicious Trades,Unknown,$15-28
+136,2028-08-08,8,2028,SG,Startup Graveyard,SG024,Kabbage - The PPP Loan Mill SoftBank Dumped,$250M Loss,$20-35
+136,2028-08-08,8,2028,LB,Legal Billions,LB016,Elmiron - Vision Loss Lawsuits Emerging,$Millions,$18-30
+137,2028-08-15,8,2028,BB,Bankruptcy Billions,BB049,GEO Group: ICE Contract Dependency Crisis,$Billions,$15-28
+137,2028-08-15,8,2028,CC,Cartel Capital,CC041,Al-Qaeda: Hawala Network Financing,$Millions,$18-32
+137,2028-08-15,8,2028,EI,Early Intel,EI033,Disney/ABC Options Before Merger Announcement,$1M,$15-28
+137,2028-08-15,8,2028,SG,Startup Graveyard,SG025,Getaround - Car Sharing With 95% Stock Collapse,$1.7B Peak,$20-35
+137,2028-08-15,8,2028,LB,Legal Billions,LB017,Transvaginal Mesh - $8 Billion for Chronic Pain,$8B,$18-30
+138,2028-08-22,8,2028,BB,Bankruptcy Billions,BB050,Management & Training Corp: Fraud and Financial Distress,$Millions,$15-28
+138,2028-08-22,8,2028,CC,Cartel Capital,CC042,Taliban: Opium Afghanistan $400M Annual,$400M,$18-32
+138,2028-08-22,8,2028,EI,Early Intel,EI034,Heinz Call Options Spike: $1.7M Profit in One Day,$1.7M,$15-28
+138,2028-08-22,8,2028,SG,Startup Graveyard,SG026,Opendoor - iBuying $7 Billion in Losses,$7B Losses,$20-35
+138,2028-08-22,8,2028,LB,Legal Billions,LB018,Metal-on-Metal Hip Implants - $4.8 Billion,$4.8B,$18-30
+139,2028-08-29,8,2028,CC,Cartel Capital,CC043,Boko Haram: Kidnapping Ransoms Financing,$Millions,$18-32
+139,2028-08-29,8,2028,EI,Early Intel,EI035,Akamai Earnings Leak Options: $160K Illegal Profit,$160K,$15-28
+139,2028-08-29,8,2028,SG,Startup Graveyard,SG027,Pets.com - The Sock Puppet That Lost $300 Million,$300M,$20-35
+139,2028-08-29,8,2028,LB,Legal Billions,LB019,Essure Birth Control - $1.6 Billion,$1.6B,$18-30
+140,2028-09-05,9,2028,CC,Cartel Capital,CC044,Silk Road: Ross Ulbricht $1.2B Bitcoin Marketplace,$1.2B,$18-32
+140,2028-09-05,9,2028,EI,Early Intel,EI036,Equifax Breach Options Trading: Executives Sold Before Disclosure,$Millions,$15-28
+140,2028-09-05,9,2028,SG,Startup Graveyard,SG028,Webvan - Instacart Before Instacart 20 Years Too Early,$1.2B,$20-35
+140,2028-09-05,9,2028,LB,Legal Billions,LB020,Hernia Mesh - $4 Billion and Growing,$4B+,$18-30
+141,2028-09-12,9,2028,CC,Cartel Capital,CC045,BTC-e: Alexander Vinnik $4B Bitcoin Exchange,$4B,$18-32
+141,2028-09-12,9,2028,EI,Early Intel,EI037,Tesla Options Manipulation: Pattern Day Trading Collusion,Unknown,$15-28
+141,2028-09-12,9,2028,SG,Startup Graveyard,SG029,eToys - The Amazon Killer That Died at Christmas,$1B Peak,$20-35
+141,2028-09-12,9,2028,LB,Legal Billions,LB021,IVC Filters - $3.6 Billion,$3.6B,$18-30
+142,2028-09-19,9,2028,CC,Cartel Capital,CC046,Hydra Market: Russia's $5B Darknet Empire,$5B,$18-32
+142,2028-09-19,9,2028,EI,Early Intel,EI038,Goldman Sachs Gupta-Rajaratnam Board Leaks,$Millions,$15-28
+142,2028-09-19,9,2028,SG,Startup Graveyard,SG030,Kozmo.com - Free 1-Hour Delivery Before Its Time,$280M,$20-35
+142,2028-09-19,9,2028,LB,Legal Billions,LB022,Breast Implant Illness - Emerging Litigation,Billions Expected,$18-30
+143,2028-09-26,9,2028,CC,Cartel Capital,CC047,Tornado Cash: North Korea Lazarus Group Tool,$Billions,$18-32
+143,2028-09-26,9,2028,EI,Early Intel,EI039,Morgan Stanley Board Member Leak: FrontPoint Case,$Millions,$15-28
+143,2028-09-26,9,2028,SG,Startup Graveyard,SG031,Global Crossing - The Fiber Optic Fraud,$30B Peak,$20-35
+143,2028-09-26,9,2028,LB,Legal Billions,LB023,Da Vinci Robot Surgery Injuries,Hundreds of Millions,$18-30
+144,2028-10-03,10,2028,CC,Cartel Capital,CC048,Miami Luxury Condos: Real Estate Money Laundering,$Billions,$18-32
+144,2028-10-03,10,2028,EI,Early Intel,EI040,JPMorgan Mortgage Trading Desk: London Whale's Friends,$6.2B,$15-28
+144,2028-10-03,10,2028,SG,Startup Graveyard,SG032,Boo.com - $135 Million Burned in 18 Months,$135M,$20-35
+144,2028-10-03,10,2028,LB,Legal Billions,LB024,PFAS Forever Chemicals - $10 Billion Expected,$10B+,$18-30
+145,2028-10-10,10,2028,CC,Cartel Capital,CC049,Manhattan Penthouses: Shell Company Buyers,$Billions,$18-32
+145,2028-10-10,10,2028,EI,Early Intel,EI041,Credit Suisse's Tipping Culture: Multiple Employee Schemes,$Millions,$15-28
+145,2028-10-10,10,2028,SG,Startup Graveyard,SG033,Excite@Home - The $6.7 Billion Cable Internet Collapse,$6.7B,$20-35
+145,2028-10-10,10,2028,LB,Legal Billions,LB025,Camp Lejeune Water Contamination - $6.7 Billion Fund,$6.7B,$18-30
+146,2028-10-17,10,2028,CC,Cartel Capital,CC050,Dubai Property: Cartel Investment Paradise,$Billions,$18-32
+146,2028-10-17,10,2028,EI,Early Intel,EI042,Deutsche Bank's M&A Leak Factory,$10B+,$15-28
+146,2028-10-17,10,2028,SG,Startup Graveyard,SG034,MoviePass - $10/Month for Unlimited Movies (Math Didn't Work),$68M,$20-35
+146,2028-10-17,10,2028,LB,Legal Billions,LB026,Flint Water Crisis - $626 Million State Settlement,$626M,$18-30
+147,2028-10-24,10,2028,EI,Early Intel,EI043,Dennis Kozlowski's Tyco Insider Loans: $600M Theft,$600M,$15-28
+147,2028-10-24,10,2028,SG,Startup Graveyard,SG035,Homejoy - The Cleaning Startup Uber Couldn't Save,$38M,$20-35
+147,2028-10-24,10,2028,LB,Legal Billions,LB027,Love Canal - The Original Toxic Cleanup,$129M (1995 dollars),$18-30
+148,2028-10-31,10,2028,EI,Early Intel,EI044,Jeffrey Skilling's Enron Stock Dumps: Sold at $60 Before $0,$70M,$15-28
+148,2028-10-31,10,2028,SG,Startup Graveyard,SG036,Sprig - The $60 Million Meal Delivery Flameout,$60M,$20-35
+148,2028-10-31,10,2028,LB,Legal Billions,LB028,Erin Brockovich/PG&E Hinkley - $333 Million,$333M,$18-30
+149,2028-11-07,11,2028,EI,Early Intel,EI045,Kenneth Lay's Enron Sales: Sold While Encouraging Buys,$90M,$15-28
+149,2028-11-07,11,2028,SG,Startup Graveyard,SG037,Shyp - On-Demand Shipping That Nobody Demanded,$62M,$20-35
+149,2028-11-07,11,2028,LB,Legal Billions,LB029,Exxon Valdez - $5 Billion Verdict Slashed to $500 Million,$500M Final,$18-30
+150,2028-11-14,11,2028,EI,Early Intel,EI046,Bernie Ebbers' WorldCom Exit: Sold Before $11B Fraud,$Millions,$15-28
+150,2028-11-14,11,2028,SG,Startup Graveyard,SG038,Luxe - Valet Parking Startup With No Exit,$25M,$20-35
+150,2028-11-14,11,2028,LB,Legal Billions,LB030,Duke Energy Coal Ash - $1.1 Billion Cleanup,$1.1B,$18-30
+151,2028-11-21,11,2028,EI,Early Intel,EI047,Richard Fuld's Lehman Sales: $250M Cashed Out Pre-Collapse,$250M,$15-28
+151,2028-11-21,11,2028,SG,Startup Graveyard,SG039,Washio - Uber for Laundry That Got Cleaned Out,$17M,$20-35
+151,2028-11-21,11,2028,LB,Legal Billions,LB031,McDonald's Hot Coffee - The Real Liebeck Story,$2.7M Actual,$18-30
+152,2028-11-28,11,2028,EI,Early Intel,EI048,Coinbase Employee Crypto Front-Running: NFT Scandal,$Millions,$15-28
+152,2028-11-28,11,2028,SG,Startup Graveyard,SG040,Pebble Watch - Kickstarter Hero to Fitbit Zero,$43M Kickstarter,$20-35
+152,2028-11-28,11,2028,LB,Legal Billions,LB032,Ford Pinto Memo - The $11 Per Car Safety Decision,$128M Verdict,$18-30
+153,2028-12-05,12,2028,EI,Early Intel,EI049,Nathaniel Chastain's OpenSea NFT Insider Scheme,$Millions,$15-28
+153,2028-12-05,12,2028,SG,Startup Graveyard,SG041,Doppler Labs - Apple AirPods Killed This Startup,$51M,$20-35
+153,2028-12-05,12,2028,LB,Legal Billions,LB033,Takata Airbags - $1.5 Billion Criminal Penalty,$1.5B,$18-30
+154,2028-12-12,12,2028,EI,Early Intel,EI050,Sam Bankman-Fried's Alameda/FTX Information Advantage,$Billions,$15-28
+154,2028-12-12,12,2028,SG,Startup Graveyard,SG042,Lily Drone - The Camera Drone That Never Shipped,$15M Preorders,$20-35
+154,2028-12-12,12,2028,LB,Legal Billions,LB034,GM Ignition Switch - $900 Million Criminal Fine,$900M+,$18-30
+155,2028-12-19,12,2028,SG,Startup Graveyard,SG043,Coolest Cooler - Kickstarter's $13 Million Disaster,$13M Kickstarter,$20-35
+155,2028-12-19,12,2028,LB,Legal Billions,LB035,Boeing 737 MAX - $2.5 Billion Deferred Prosecution,$2.5B,$18-30
+156,2028-12-26,12,2028,SG,Startup Graveyard,SG044,Skully Helmets - The $15 Million AR Motorcycle Helmet,$15M,$20-35
+156,2028-12-26,12,2028,LB,Legal Billions,LB036,Firestone Tire Failures - $3 Billion Settlement,$3B,$18-30
+157,2029-01-02,1,2029,SG,Startup Graveyard,SG045,Ouya - The Android Gaming Console Nobody Played,$8.6M Kickstarter,$20-35
+157,2029-01-02,1,2029,LB,Legal Billions,LB037,Enron Shareholder Settlement - $7.2 Billion,$7.2B,$18-30
+158,2029-01-09,1,2029,SG,Startup Graveyard,SG046,Quora's Endless Pivot - From Q&A to AI to Poe,$2B Valuation,$20-35
+158,2029-01-09,1,2029,LB,Legal Billions,LB038,WorldCom Investor Recovery - $6.1 Billion,$6.1B,$18-30
+159,2029-01-16,1,2029,SG,Startup Graveyard,SG047,Yahoo - The Internet Giant That Pivoted to Irrelevance,$125B Peak,$20-35
+159,2029-01-16,1,2029,LB,Legal Billions,LB039,Bank of America Mortgage Securities - $16.65 Billion,$16.65B,$18-30
+160,2029-01-23,1,2029,SG,Startup Graveyard,SG048,Tumblr - $1.1 Billion to Yahoo Sold for $3 Million,$1.1B to $3M,$20-35
+160,2029-01-23,1,2029,LB,Legal Billions,LB040,JPMorgan RMBS Settlement - $13 Billion,$13B,$18-30
+161,2029-01-30,1,2029,SG,Startup Graveyard,SG049,Medium - Ev Williams Third Company Still Looking for Business Model,$600M Valuation,$20-35
+161,2029-01-30,1,2029,LB,Legal Billions,LB041,Tyco Shareholder Suit - $3 Billion,$3B,$18-30
+162,2029-02-06,2,2029,SG,Startup Graveyard,SG050,Vice Media - $5.7 Billion Valuation to Bankruptcy,$5.7B Peak,$20-35
+162,2029-02-06,2,2029,LB,Legal Billions,LB042,Columbia/HCA - $1.7 Billion Qui Tam,$1.7B,$18-30
+163,2029-02-13,2,2029,LB,Legal Billions,LB043,GlaxoSmithKline - $3 Billion Healthcare Fraud,$3B,$18-30
+164,2029-02-20,2,2029,LB,Legal Billions,LB044,Pfizer - $2.3 Billion Off-Label Marketing,$2.3B,$18-30
+165,2029-02-27,2,2029,LB,Legal Billions,LB045,Tenet Healthcare - $900 Million Medicare Fraud,$900M,$18-30
+166,2029-03-06,3,2029,LB,Legal Billions,LB046,Abbott Labs - $1.5 Billion Depakote Settlement,$1.5B,$18-30
+167,2029-03-13,3,2029,LB,Legal Billions,LB047,Social Media Youth Mental Health - Billions Coming,$Billions Expected,$18-30
+168,2029-03-20,3,2029,LB,Legal Billions,LB048,Hair Relaxer Cancer - 60000+ Plaintiffs,$Billions Expected,$18-30
+169,2029-03-27,3,2029,LB,Legal Billions,LB049,Paraquat Parkinson's Disease - 5000+ Cases,$Billions Expected,$18-30
+170,2029-04-03,4,2029,LB,Legal Billions,LB050,Tylenol Autism - Emerging Litigation,$Billions Expected,$18-30

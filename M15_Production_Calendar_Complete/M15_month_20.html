@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 20 - August 2027 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 20: August 2027</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$114,300</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$34,290</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$80,010</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 83 - Starting 2027-08-03</div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH047</div>
+                <div class="subject-title">Genesis Healthcare Understaffing Crisis - 500+ Facilities</div>
+                <div class="amount">$53M Settlement</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER035</div>
+                <div class="subject-title">SoFla Condo Collapse Culture - Surfside Was Predictable</div>
+                <div class="amount">98 Deaths</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF023</div>
+                <div class="subject-title">Chris Collins - Insider Trading from White House Lawn</div>
+                <div class="amount">Congressional Picnic</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC011</div>
+                <div class="subject-title">UBS Swiss Bank Crackdown - The $780 Million Settlement</div>
+                <div class="amount">$780M</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 84 - Starting 2027-08-10</div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH048</div>
+                <div class="subject-title">Guardian Exploitation - Judges Appointing Crooked Conservators</div>
+                <div class="amount">Ongoing</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER036</div>
+                <div class="subject-title">Oceanwide Plaza Ghost Towers - $1B Abandoned Downtown LA</div>
+                <div class="amount">$1B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF024</div>
+                <div class="subject-title">Corrine Brown - Fake Charity Real Prison Time</div>
+                <div class="amount">One Door for Education</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC012</div>
+                <div class="subject-title">Credit Suisse Guilty Plea - Aiding Tax Evasion</div>
+                <div class="amount">$2.6B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 85 - Starting 2027-08-17</div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH049</div>
+                <div class="subject-title">Sabra Healthcare REIT - Landlords Extracting Nursing Home Profits</div>
+                <div class="amount">Ongoing</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER037</div>
+                <div class="subject-title">American Realty Capital - $23B Accounting Fraud</div>
+                <div class="amount">$23B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF025</div>
+                <div class="subject-title">Aaron Schock - The Downton Abbey Office</div>
+                <div class="amount">$100K+ Renovation</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC013</div>
+                <div class="subject-title">The Brockman Indictment - $2 Billion Largest Tax Evasion Case</div>
+                <div class="amount">$2B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP001</div>
+                <div class="subject-title">Carl Icahn's TWA Takeover: How He Made $469M Destroying an Airline</div>
+                <div class="amount">$469M</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 86 - Starting 2027-08-24</div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH050</div>
+                <div class="subject-title">Hospice Fraud Factories - Patients Who Lived for Years</div>
+                <div class="amount">Ongoing</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER038</div>
+                <div class="subject-title">Cole Credit Property Trust - Non-Traded REIT Disaster</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF026</div>
+                <div class="subject-title">Chaka Fattah - RICO Racketeering Bribery</div>
+                <div class="amount">Organized Crime Charges</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC014</div>
+                <div class="subject-title">HSBC Swiss Leaks - How 100000 Accounts Were Exposed</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP002</div>
+                <div class="subject-title">T. Boone Pickens' Greenmail Empire: $500M Without Buying Companies</div>
+                <div class="amount">$500M</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 87 - Starting 2027-08-31</div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER039</div>
+                <div class="subject-title">Inland Western Retail Trust - Mall REIT That Cratered</div>
+                <div class="amount">$6.8B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF027</div>
+                <div class="subject-title">Michael Grimm - Tax Fraud Congressman</div>
+                <div class="amount">Threatened Reporter</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC015</div>
+                <div class="subject-title">Panama Papers Prosecutions - Who Actually Went to Jail</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP003</div>
+                <div class="subject-title">Michael Milken's Junk Bond Machine: Financing the Raiders</div>
+                <div class="amount">$600M Fine</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_19.html" class="nav-btn secondary">← Month 19</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_21.html" class="nav-btn secondary">Month 21 →</a>
+        </div>
+    </div>
+</body>
+</html>

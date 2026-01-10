@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 36 - December 2028 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 36: December 2028</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$330,500</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$99,150</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$231,349</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 153 - Starting 2028-12-05</div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI049</div>
+                <div class="subject-title">Nathaniel Chastain's OpenSea NFT Insider Scheme</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG041</div>
+                <div class="subject-title">Doppler Labs - Apple AirPods Killed This Startup</div>
+                <div class="amount">$51M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #191970">
+                <div class="channel-badge" style="background-color: #191970">LB</div>
+                <div class="subject-id">LB033</div>
+                <div class="subject-title">Takata Airbags - $1.5 Billion Criminal Penalty</div>
+                <div class="amount">$1.5B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 154 - Starting 2028-12-12</div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI050</div>
+                <div class="subject-title">Sam Bankman-Fried's Alameda/FTX Information Advantage</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG042</div>
+                <div class="subject-title">Lily Drone - The Camera Drone That Never Shipped</div>
+                <div class="amount">$15M Preorders</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #191970">
+                <div class="channel-badge" style="background-color: #191970">LB</div>
+                <div class="subject-id">LB034</div>
+                <div class="subject-title">GM Ignition Switch - $900 Million Criminal Fine</div>
+                <div class="amount">$900M+</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 155 - Starting 2028-12-19</div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG043</div>
+                <div class="subject-title">Coolest Cooler - Kickstarter's $13 Million Disaster</div>
+                <div class="amount">$13M Kickstarter</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #191970">
+                <div class="channel-badge" style="background-color: #191970">LB</div>
+                <div class="subject-id">LB035</div>
+                <div class="subject-title">Boeing 737 MAX - $2.5 Billion Deferred Prosecution</div>
+                <div class="amount">$2.5B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 156 - Starting 2028-12-26</div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG044</div>
+                <div class="subject-title">Skully Helmets - The $15 Million AR Motorcycle Helmet</div>
+                <div class="amount">$15M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #191970">
+                <div class="channel-badge" style="background-color: #191970">LB</div>
+                <div class="subject-id">LB036</div>
+                <div class="subject-title">Firestone Tire Failures - $3 Billion Settlement</div>
+                <div class="amount">$3B</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_35.html" class="nav-btn secondary">← Month 35</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+        </div>
+    </div>
+</body>
+</html>

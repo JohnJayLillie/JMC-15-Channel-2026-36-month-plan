@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 21 - September 2027 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 21: September 2027</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$118,300</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$35,490</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$82,810</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 88 - Starting 2027-09-07</div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER040</div>
+                <div class="subject-title">GPB Capital - $1.8B Private Placement Ponzi</div>
+                <div class="amount">$1.8B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF028</div>
+                <div class="subject-title">Jack Abramoff - The Lobbyist Who Went to Prison</div>
+                <div class="amount">Superlobbyist Fall</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC016</div>
+                <div class="subject-title">Pandora Papers Follow-Up - The World Leaders Edition</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP004</div>
+                <div class="subject-title">The RJR Nabisco Battle: $25B Barbarians at the Gate</div>
+                <div class="amount">$25B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 89 - Starting 2027-09-14</div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER041</div>
+                <div class="subject-title">Woodbridge Group - $1.3B Real Estate Ponzi Scheme</div>
+                <div class="amount">$1.3B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF029</div>
+                <div class="subject-title">Tony Podesta's Foreign Lobbying Empire</div>
+                <div class="amount">Ukraine + Saudi Arabia</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC017</div>
+                <div class="subject-title">The Liechtenstein Tax Affair - Germany's Data Theft Prosecution</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP005</div>
+                <div class="subject-title">Asher Edelman's Art of Corporate Raiding</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB001</div>
+                <div class="subject-title">Sears: Eddie Lampert's 15-Year Controlled Demolition</div>
+                <div class="amount">$134B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 90 - Starting 2027-09-21</div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER042</div>
+                <div class="subject-title">1031 Exchange Fraud - Qualified Intermediaries Who Stole</div>
+                <div class="amount">$Hundreds of Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF030</div>
+                <div class="subject-title">Billy Tauzin - Congressman to PhRMA to $Millions</div>
+                <div class="amount">$2M/Year</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC018</div>
+                <div class="subject-title">Julius Baer Bank - Swiss Private Banking Guilty Plea</div>
+                <div class="amount">$547M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP006</div>
+                <div class="subject-title">Victor Posner's Empire of Shells: The Original Asset Stripper</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB002</div>
+                <div class="subject-title">Toys R Us: How PE Used Bankruptcy to Extract Final Fees</div>
+                <div class="amount">$6.6B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 91 - Starting 2027-09-28</div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER043</div>
+                <div class="subject-title">Crowdfunding Real Estate Fraud - Fundrise Competitors Failed</div>
+                <div class="amount">$Hundreds of Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF031</div>
+                <div class="subject-title">Tom Daschle's Post-Senate Lobbying Fortune</div>
+                <div class="amount">Healthcare Industry</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC019</div>
+                <div class="subject-title">Wegelin Bank - The First Swiss Bank Killed by US DOJ</div>
+                <div class="amount">$58M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP007</div>
+                <div class="subject-title">Sir James Goldsmith: The Transatlantic Raider</div>
+                <div class="amount">$500M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB003</div>
+                <div class="subject-title">J.C. Penney: Three Bankruptcies in Three Ownership Structures</div>
+                <div class="amount">$Billions</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_20.html" class="nav-btn secondary">← Month 20</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_22.html" class="nav-btn secondary">Month 22 →</a>
+        </div>
+    </div>
+</body>
+</html>

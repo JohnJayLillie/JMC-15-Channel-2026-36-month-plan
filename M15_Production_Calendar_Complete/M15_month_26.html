@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 26 - February 2028 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 26: February 2028</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$225,100</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$67,530</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$157,570</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 109 - Starting 2028-02-01</div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF049</div>
+                <div class="subject-title">Dinesh D'Souza's Straw Donor Scheme</div>
+                <div class="amount">$20K Illegal Bundling</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC037</div>
+                <div class="subject-title">BitMEX Founders - Crypto Exchange Tax Evasion</div>
+                <div class="amount">Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP025</div>
+                <div class="subject-title">Pershing Square's J.C. Penney Disaster: Ackman Lost $500M</div>
+                <div class="amount">$500M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB021</div>
+                <div class="subject-title">Delphi: Auto Parts Pension Dumping Bankruptcy</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC013</div>
+                <div class="subject-title">Black Market Peso Exchange: The Engine of Colombian Laundering</div>
+                <div class="amount">$6-10B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI005</div>
+                <div class="subject-title">Mark Cuban's Mamma.com Trade: Acquitted Despite Suspicious Timing</div>
+                <div class="amount">$750K</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 110 - Starting 2028-02-08</div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF050</div>
+                <div class="subject-title">John Edwards' Mistress Cover-Up Fund</div>
+                <div class="amount">$1M+ Hush Money</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC038</div>
+                <div class="subject-title">Coinbase John Doe Summons - Setting Crypto Tax Precedent</div>
+                <div class="amount">Thousands of Users</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP026</div>
+                <div class="subject-title">Starboard Value's Olive Garden Campaign: The Breadstick Manifesto</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB022</div>
+                <div class="subject-title">Visteon: Ford Spin-Off Bankruptcy Strategy</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC014</div>
+                <div class="subject-title">Drogas La Rebaja: The Pharmacy Chain Built on Cocaine</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI006</div>
+                <div class="subject-title">Carl Icahn's Apple Tweets: Legal Front-Running?</div>
+                <div class="amount">Unknown</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 111 - Starting 2028-02-15</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC039</div>
+                <div class="subject-title">Roger Ver - Bitcoin Jesus Expatriation Tax Battle</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP027</div>
+                <div class="subject-title">ValueAct Capital's Microsoft Activism: Forced Ballmer Out</div>
+                <div class="amount">$2B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB023</div>
+                <div class="subject-title">Takata Airbag: Bankruptcy Shields Liability $1B in Claims</div>
+                <div class="amount">$1B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC015</div>
+                <div class="subject-title">The North Valley Cartel's Wall Street Connections</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI007</div>
+                <div class="subject-title">Nelson Peltz's Heinz/Kraft Insider Trading Investigation</div>
+                <div class="amount">Unknown</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 112 - Starting 2028-02-22</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC040</div>
+                <div class="subject-title">NFT Tax Evasion - The Art Market Goes Digital</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP028</div>
+                <div class="subject-title">Jeff Smith's Salesforce Activism: Forced $10B Buybacks</div>
+                <div class="amount">$10B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB024</div>
+                <div class="subject-title">Purdue Pharma: Sackler Family Shield Through Bankruptcy</div>
+                <div class="amount">$6B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC016</div>
+                <div class="subject-title">Colombian Real Estate Boom: Narco Money in Bogota High-Rises</div>
+                <div class="amount">$20B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI008</div>
+                <div class="subject-title">Larry Ellison's Trades: Oracle CEO's Perfect Timing</div>
+                <div class="amount">$1B+</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 113 - Starting 2028-02-29</div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC041</div>
+                <div class="subject-title">John McAfee - Crypto Guru's Tax Evasion Death</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B008B">
+                <div class="channel-badge" style="background-color: #8B008B">WSP</div>
+                <div class="subject-id">WSP029</div>
+                <div class="subject-title">Paul Singer's Elliott Management: Argentina Holdout Victory</div>
+                <div class="amount">$2.4B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #B8860B">
+                <div class="channel-badge" style="background-color: #B8860B">BB</div>
+                <div class="subject-id">BB025</div>
+                <div class="subject-title">Mallinckrodt: Opioid Bankruptcy Protection</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B4789">
+                <div class="channel-badge" style="background-color: #8B4789">CC</div>
+                <div class="subject-id">CC017</div>
+                <div class="subject-title">Soccer Teams as Laundries: America de Cali's Dirty Money</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #556B2F">
+                <div class="channel-badge" style="background-color: #556B2F">EI</div>
+                <div class="subject-id">EI009</div>
+                <div class="subject-title">Jeff Bezos' Amazon Sale Schedule: Legal But Suspicious</div>
+                <div class="amount">$6B+</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FF4500">
+                <div class="channel-badge" style="background-color: #FF4500">SG</div>
+                <div class="subject-id">SG001</div>
+                <div class="subject-title">Quibi - $1.75 Billion Burned in 6 Months</div>
+                <div class="amount">$1.75B</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_25.html" class="nav-btn secondary">← Month 25</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_27.html" class="nav-btn secondary">Month 27 →</a>
+        </div>
+    </div>
+</body>
+</html>

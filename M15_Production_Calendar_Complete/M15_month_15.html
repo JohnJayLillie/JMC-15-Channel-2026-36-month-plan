@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 15 - March 2027 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 15: March 2027</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$92,800</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$27,840</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$64,959</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 61 - Starting 2027-03-02</div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF049</div>
+                <div class="subject-title">The Resource Curse: Why Oil-Rich Nations Stay Poor</div>
+                <div class="amount">Systemic</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF029</div>
+                <div class="subject-title">No-Bid Defense Contracts: Who Gets Them</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH025</div>
+                <div class="subject-title">Mylan's EpiPen - $100 to $600 Price Explosion</div>
+                <div class="amount">$465M Settlement</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER013</div>
+                <div class="subject-title">Evergrande Collapse - China's $300B Real Estate Ponzi</div>
+                <div class="amount">$300B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF001</div>
+                <div class="subject-title">Nancy Pelosi's Stock Trades - Speaker of the Portfolio</div>
+                <div class="amount">$Millions</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 62 - Starting 2027-03-09</div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF050</div>
+                <div class="subject-title">Black Markets in Wartime: How Conflict Breeds Secret Wealth</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF030</div>
+                <div class="subject-title">Defense Spending by Congressional District</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH026</div>
+                <div class="subject-title">Gilead's $1000/Pill Hepatitis C Cure - Sovaldi Pricing</div>
+                <div class="amount">$84K Treatment</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER014</div>
+                <div class="subject-title">Starwood Capital's CMBS Games - Packaging Bad Loans</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF002</div>
+                <div class="subject-title">Richard Burr's COVID Stock Dump</div>
+                <div class="amount">$1.7M</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 63 - Starting 2027-03-16</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF031</div>
+                <div class="subject-title">Where EV Subsidies Actually Go</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH027</div>
+                <div class="subject-title">Generic Drug Price-Fixing Cartel - 300+ Drugs</div>
+                <div class="amount">1000%+ Increases</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER015</div>
+                <div class="subject-title">iStar Financial - CRE Lender That Nearly Imploded</div>
+                <div class="amount">$2B+ Losses</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF003</div>
+                <div class="subject-title">Kelly Loeffler's Pandemic Trades</div>
+                <div class="amount">Senator + NYSE Chairman</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 64 - Starting 2027-03-23</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF032</div>
+                <div class="subject-title">Tesla's Government Money: Complete Analysis</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH028</div>
+                <div class="subject-title">GlaxoSmithKline's $3B Fraud - Hiding Paxil Risks</div>
+                <div class="amount">$3B Settlement</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER016</div>
+                <div class="subject-title">General Growth Properties - $27B Mall REIT Bankruptcy</div>
+                <div class="amount">$27B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF004</div>
+                <div class="subject-title">Dianne Feinstein's Husband's Trades</div>
+                <div class="amount">Decades of Timing</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 65 - Starting 2027-03-30</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF033</div>
+                <div class="subject-title">Clean Energy Winners and Losers</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH029</div>
+                <div class="subject-title">Pfizer's $2.3B Bextra Settlement - Off-Label Marketing</div>
+                <div class="amount">$2.3B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER017</div>
+                <div class="subject-title">Stuyvesant Town - $5.4B Apartment Complex Disaster</div>
+                <div class="amount">$5.4B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF005</div>
+                <div class="subject-title">David Perdue - 2596 Trades in One Term</div>
+                <div class="amount">Most Active Ever</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_14.html" class="nav-btn secondary">← Month 14</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_16.html" class="nav-btn secondary">Month 16 →</a>
+        </div>
+    </div>
+</body>
+</html>

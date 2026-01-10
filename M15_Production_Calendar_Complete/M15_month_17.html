@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 17 - May 2027 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 17: May 2027</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$101,900</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$30,570</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$71,330</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 70 - Starting 2027-05-04</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF038</div>
+                <div class="subject-title">Private Prison vs. Public: Cost Comparison</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH034</div>
+                <div class="subject-title">UnitedHealth Medicare Advantage Overbilling - $Billions at Stake</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER022</div>
+                <div class="subject-title">Jared Kushner's Baltimore Slums - Suing Tenants Buildings Rot</div>
+                <div class="amount">Thousands of Units</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF010</div>
+                <div class="subject-title">Dark Money Explained - The Untraceable Billions</div>
+                <div class="amount">$Billions</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 71 - Starting 2027-05-11</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF039</div>
+                <div class="subject-title">ICE Detention Spending: Where It Goes</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH035</div>
+                <div class="subject-title">The Disability Mill - Exposed by 60 Minutes</div>
+                <div class="amount">Systemic</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER023</div>
+                <div class="subject-title">Veritas Investments - San Francisco's Eviction Machine</div>
+                <div class="amount">300+ Buildings</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF011</div>
+                <div class="subject-title">Lincoln Project's $90M Spending Mystery</div>
+                <div class="amount">$90M</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 72 - Starting 2027-05-18</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF040</div>
+                <div class="subject-title">Federal Prison Industry Contracts</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH036</div>
+                <div class="subject-title">Health Insurance Churning - Short-Term Plan Trap</div>
+                <div class="amount">Ongoing</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER024</div>
+                <div class="subject-title">Rent-to-Own Trap - Vision Property Management Scheme</div>
+                <div class="amount">Thousands of Victims</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF012</div>
+                <div class="subject-title">Karl Rove's Crossroads GPS - Pioneer of Dark Money</div>
+                <div class="amount">$Hundreds of Millions</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 73 - Starting 2027-05-25</div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF041</div>
+                <div class="subject-title">Infrastructure Bill: Where the Money Went</div>
+                <div class="amount">$1.2T</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH037</div>
+                <div class="subject-title">Prior Authorization Deaths - When Insurers Practice Medicine</div>
+                <div class="amount">Ongoing</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER025</div>
+                <div class="subject-title">Airbnb's Housing Crisis - Short-Term Rentals Kill Neighborhoods</div>
+                <div class="amount">Millions of Units</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4B0082">
+                <div class="channel-badge" style="background-color: #4B0082">PMF</div>
+                <div class="subject-id">PMF013</div>
+                <div class="subject-title">Priorities USA - Democratic Super PAC Machine</div>
+                <div class="amount">$Hundreds of Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #006400">
+                <div class="channel-badge" style="background-color: #006400">TC</div>
+                <div class="subject-id">TC001</div>
+                <div class="subject-title">Wesley Snipes - The $15 Million 861 Argument Disaster</div>
+                <div class="amount">$15M</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_16.html" class="nav-btn secondary">← Month 16</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_18.html" class="nav-btn secondary">Month 18 →</a>
+        </div>
+    </div>
+</body>
+</html>

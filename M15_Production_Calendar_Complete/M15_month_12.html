@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month 12 - December 2026 | Production Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .revenue-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .revenue-item {
+            text-align: center;
+        }
+        .revenue-item .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .revenue-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .week-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .week-header {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .subject-row {
+            display: grid;
+            grid-template-columns: 80px 180px 1fr 120px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .channel-badge {
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .subject-id {
+            font-family: "Courier New", monospace;
+            font-weight: 600;
+            color: #666;
+        }
+        .subject-title {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .amount {
+            font-weight: 600;
+            color: #2ea44f;
+            text-align: right;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-btn.primary {
+            background: #667eea;
+            color: white;
+        }
+        .nav-btn.secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Month 12: December 2026</h1>
+            <p class="subtitle">Production Schedule - 15 Channel Documentary System</p>
+            
+            <div class="revenue-summary">
+                <div class="revenue-item">
+                    <div class="label">Month Revenue</div>
+                    <div class="value">$11,400</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Active Production</div>
+                    <div class="value">$11,400</div>
+                </div>
+                <div class="revenue-item">
+                    <div class="label">Catalog Revenue</div>
+                    <div class="value">$0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 48 - Starting 2026-12-01</div>
+
+            <div class="subject-row" style="border-left-color: #8B4513">
+                <div class="channel-badge" style="background-color: #8B4513">FV</div>
+                <div class="subject-id">FV048</div>
+                <div class="subject-title">Herbalife - Pyramid or Marketing?</div>
+                <div class="amount">$200M Settlement</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FFD700">
+                <div class="channel-badge" style="background-color: #FFD700">CFF</div>
+                <div class="subject-id">CFF048</div>
+                <div class="subject-title">HashFlare - Cloud Mining Scam $575M</div>
+                <div class="amount">$575M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF036</div>
+                <div class="subject-title">How the CIA Used Banks to Move Money in Cold War</div>
+                <div class="amount">Classified</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF016</div>
+                <div class="subject-title">What the Government Pays McKinsey</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH012</div>
+                <div class="subject-title">COVID Testing Fraud - Pandemic Billing Bonanza</div>
+                <div class="amount">$Billions</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 49 - Starting 2026-12-08</div>
+
+            <div class="subject-row" style="border-left-color: #8B4513">
+                <div class="channel-badge" style="background-color: #8B4513">FV</div>
+                <div class="subject-id">FV049</div>
+                <div class="subject-title">Dot-Com Bust's Biggest Frauds</div>
+                <div class="amount">$Trillions Lost</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FFD700">
+                <div class="channel-badge" style="background-color: #FFD700">CFF</div>
+                <div class="subject-id">CFF049</div>
+                <div class="subject-title">Trade Coin Club - $295M Crypto Trading Ponzi</div>
+                <div class="amount">$295M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF037</div>
+                <div class="subject-title">Mossad MI6 & Offshore Networks: Secret Finance in Intelligence</div>
+                <div class="amount">Classified</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF017</div>
+                <div class="subject-title">Booz Allen Hamilton: The Government's IT Department</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH013</div>
+                <div class="subject-title">Tenet Healthcare Unnecessary Heart Surgeries - 769 Patients</div>
+                <div class="amount">$54M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER001</div>
+                <div class="subject-title">Countrywide Financial - Angelo Mozilo's Subprime Machine</div>
+                <div class="amount">$Billions</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 50 - Starting 2026-12-15</div>
+
+            <div class="subject-row" style="border-left-color: #8B4513">
+                <div class="channel-badge" style="background-color: #8B4513">FV</div>
+                <div class="subject-id">FV050</div>
+                <div class="subject-title">Mirror Trading & Russia's Laundering Networks</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #FFD700">
+                <div class="channel-badge" style="background-color: #FFD700">CFF</div>
+                <div class="subject-id">CFF050</div>
+                <div class="subject-title">Hyperverse/HyperFund - $1.3B Australian MLM</div>
+                <div class="amount">$1.3B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF038</div>
+                <div class="subject-title">The Swiss Vaults That Hid Nazi Gold</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF018</div>
+                <div class="subject-title">Federal IT Project Disasters and Costs</div>
+                <div class="amount">$Billions Wasted</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH014</div>
+                <div class="subject-title">HCA's Upcoding Empire - Never Rendered Services</div>
+                <div class="amount">$1.7B (partial)</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER002</div>
+                <div class="subject-title">Washington Mutual - Largest Bank Failure in U.S. History</div>
+                <div class="amount">$307B Collapse</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 51 - Starting 2026-12-22</div>
+
+            <div class="subject-row" style="border-left-color: #8B4513">
+                <div class="channel-badge" style="background-color: #8B4513">FV</div>
+                <div class="subject-id">FV051</div>
+                <div class="subject-title">Adelphia Communications - Family Stole $2.3B</div>
+                <div class="amount">$2.3B</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF039</div>
+                <div class="subject-title">Iran-Contra: How Secret Money Fueled Shadow Wars</div>
+                <div class="amount">$Millions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF019</div>
+                <div class="subject-title">The Big Four Consulting Firms' Government Money</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH015</div>
+                <div class="subject-title">Community Health Systems - $98M Unnecessary Admissions</div>
+                <div class="amount">$98M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER003</div>
+                <div class="subject-title">New Century Financial - Subprime Lender That Started Crash</div>
+                <div class="amount">$1.75B</div>
+            </div>
+        </div>
+
+        <div class="week-card">
+            <div class="week-header">Week 52 - Starting 2026-12-29</div>
+
+            <div class="subject-row" style="border-left-color: #8B4513">
+                <div class="channel-badge" style="background-color: #8B4513">FV</div>
+                <div class="subject-id">FV052</div>
+                <div class="subject-title">Refco - Futures Broker's $430M Fraud</div>
+                <div class="amount">$430M</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #4169E1">
+                <div class="channel-badge" style="background-color: #4169E1">SF</div>
+                <div class="subject-id">SF040</div>
+                <div class="subject-title">Dark Money in Politics: Who Really Buys Elections?</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #DC143C">
+                <div class="channel-badge" style="background-color: #DC143C">USM</div>
+                <div class="subject-id">UMF020</div>
+                <div class="subject-title">Accenture Federal Services: Contracts Breakdown</div>
+                <div class="amount">$Billions</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #008B8B">
+                <div class="channel-badge" style="background-color: #008B8B">HH</div>
+                <div class="subject-id">HH016</div>
+                <div class="subject-title">The $700 Tylenol - Hospital Chargemaster Secrets</div>
+                <div class="amount">Systemic</div>
+            </div>
+
+            <div class="subject-row" style="border-left-color: #8B0000">
+                <div class="channel-badge" style="background-color: #8B0000">RER</div>
+                <div class="subject-id">RER004</div>
+                <div class="subject-title">IndyMac - The $32B Bank Seized by FDIC</div>
+                <div class="amount">$32B</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="M15_month_11.html" class="nav-btn secondary">← Month 11</a>
+            <a href="M15_index.html" class="nav-btn primary">📅 Calendar Home</a>
+            <a href="M15_month_13.html" class="nav-btn secondary">Month 13 →</a>
+        </div>
+    </div>
+</body>
+</html>
