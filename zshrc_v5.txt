@@ -1,0 +1,539 @@
+# ============================================
+# M15 PRODUCTIONS - COMPLETE .ZSHRC v5.0
+# ============================================
+# Updated: January 11, 2026
+# Includes: Full automation, news monitoring, calendar integration
+#
+# INSTALLATION:
+# 1. Backup existing: cp ~/.zshrc ~/.zshrc.backup
+# 2. Copy this file: cp zshrc_v5.txt ~/.zshrc
+# 3. Reload: source ~/.zshrc
+#
+# ============================================
+
+# ============================================
+# SYSTEM CONFIGURATION
+# ============================================
+export PROMPT="%n@$(ipconfig getifaddr en0) %1~ %# "
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin"
+
+# ============================================
+# M15 PRODUCTIONS - CORE PATHS
+# ============================================
+
+# Main drive
+export M15_DRIVE="/Volumes/JMC Ext Drive"
+export M15_AUTO="$M15_DRIVE/m15-automation"
+export M15_IMGS="$M15_DRIVE/Images"
+export M15_DOCS="$M15_DRIVE/Documents"
+export M15_LOGS="$M15_DRIVE/logs"
+
+# ============================================
+# NAVIGATION SHORTCUTS
+# ============================================
+
+# Core directories
+alias jmc='cd "$M15_DRIVE"'
+alias auto='cd "$M15_AUTO"'
+alias imgs='cd "$M15_IMGS"'
+alias docs='cd "$M15_DOCS"'
+alias logs='cd "$M15_LOGS"'
+alias scripts='cd "$M15_DRIVE/Scripts"'
+alias davinci='cd "$M15_DRIVE/DaVinci_Projects"'
+alias audio='cd "$M15_DRIVE/Audio"'
+alias exports='cd "$M15_DRIVE/Exports"'
+
+# ============================================
+# V5 AUTOMATION SYSTEM
+# ============================================
+
+# Generate complete series (documents + images)
+generate() {
+    if [ -z "$1" ]; then
+        echo "Usage: generate CFF001"
+        echo "Generates all documents and images for a series"
+        return 1
+    fi
+    
+    cd "$M15_AUTO" || return 1
+    echo "🎬 Generating series: $1"
+    python3 generate_series.py "$1"
+}
+
+# Generate documents only (no images)
+gendocs() {
+    if [ -z "$1" ]; then
+        echo "Usage: gendocs CFF001"
+        return 1
+    fi
+    
+    cd "$M15_AUTO" || return 1
+    echo "📄 Generating documents only: $1"
+    python3 generate_series.py "$1" --docs-only
+}
+
+# Generate images only (assumes docs exist)
+genimgs() {
+    if [ -z "$1" ]; then
+        echo "Usage: genimgs CFF001"
+        return 1
+    fi
+    
+    cd "$M15_AUTO" || return 1
+    echo "🖼️ Generating images only: $1"
+    python3 generate_series.py "$1" --images-only
+}
+
+# Quick status check
+m15status() {
+    echo "📊 M15 AUTOMATION STATUS"
+    echo "======================="
+    echo ""
+    echo "Drive: $(df -h "$M15_DRIVE" | tail -1 | awk '{print $3 " used / " $2 " total"}')"
+    echo ""
+    echo "Recent generations:"
+    ls -lt "$M15_LOGS" | head -6
+    echo ""
+    echo "Series generated: $(ls -1 "$M15_IMGS" | wc -l)"
+    echo ""
+    echo "Latest calendar: $(ls -t "$M15_DOCS"/News_Reports/*.txt 2>/dev/null | head -1)"
+}
+
+# View logs
+viewlog() {
+    if [ -z "$1" ]; then
+        echo "Recent logs:"
+        ls -lt "$M15_LOGS"/*.log 2>/dev/null | head -10
+        return 0
+    fi
+    
+    tail -f "$M15_LOGS/$1"
+}
+
+# ============================================
+# NEWS MONITORING
+# ============================================
+
+# Scan all channels
+newscan() {
+    cd "$M15_AUTO" || return 1
+    python3 news_monitor.py "$@"
+}
+
+# Scan specific channel
+newscff() {
+    cd "$M15_AUTO" || return 1
+    python3 news_monitor.py --channel CFF "$@"
+}
+
+newsfv() {
+    cd "$M15_AUTO" || return 1
+    python3 news_monitor.py --channel FV "$@"
+}
+
+newshh() {
+    cd "$M15_AUTO" || return 1
+    python3 news_monitor.py --channel HH "$@"
+}
+
+newspmf() {
+    cd "$M15_AUTO" || return 1
+    python3 news_monitor.py --channel PMF "$@"
+}
+
+# Weekly scan (all channels, 7 days)
+newsweek() {
+    cd "$M15_AUTO" || return 1
+    local filename="weekly_news_$(date +%Y%m%d).txt"
+    echo "📰 Running weekly scan..."
+    python3 news_monitor.py --days 7 --output "$M15_DOCS/News_Reports/$filename"
+    echo ""
+    echo "✅ Report saved: $M15_DOCS/News_Reports/$filename"
+}
+
+# View latest news report
+viewnews() {
+    local latest=$(ls -t "$M15_DOCS"/News_Reports/*.txt 2>/dev/null | head -1)
+    if [ -z "$latest" ]; then
+        echo "No news reports found"
+        return 1
+    fi
+    
+    echo "📰 Latest report: $(basename "$latest")"
+    echo ""
+    cat "$latest"
+}
+
+# ============================================
+# IMAGE MANAGEMENT
+# ============================================
+
+# Create image folders for new subject
+mkimg() {
+    if [ -z "$1" ]; then
+        echo "Usage: mkimg CFF001"
+        return 1
+    fi
+    mkdir -p "$M15_IMGS/$1"/{CategoryA,CategoryB,CategoryC}
+    echo "✅ Created folders for $1"
+    ls -la "$M15_IMGS/$1"
+}
+
+# Open subject's image folder in Finder
+openimg() {
+    if [ -z "$1" ]; then
+        echo "Usage: openimg CFF001"
+        return 1
+    fi
+    open "$M15_IMGS/$1"
+}
+
+# Count images by category
+countimgs() {
+    if [ -z "$1" ]; then
+        echo "Usage: countimgs CFF001"
+        return 1
+    fi
+    
+    local subject="$1"
+    echo "📊 Image count for $subject:"
+    echo "  CategoryA: $(ls -1 "$M15_IMGS/$subject/CategoryA" 2>/dev/null | wc -l)"
+    echo "  CategoryB: $(ls -1 "$M15_IMGS/$subject/CategoryB" 2>/dev/null | wc -l)"
+    echo "  CategoryC: $(ls -1 "$M15_IMGS/$subject/CategoryC" 2>/dev/null | wc -l)"
+}
+
+# View CategoryA checklist
+checklista() {
+    if [ -z "$1" ]; then
+        echo "Usage: checklista CFF001"
+        return 1
+    fi
+    
+    local guide="$M15_DOCS/$1/${1}_ImageGatheringGuide.md"
+    if [ -f "$guide" ]; then
+        grep -A 50 "CATEGORY A" "$guide" | head -60
+    else
+        echo "❌ Image Gathering Guide not found: $guide"
+    fi
+}
+
+# ============================================
+# DOCUMENT MANAGEMENT
+# ============================================
+
+# Open subject's documents folder
+opendocs() {
+    if [ -z "$1" ]; then
+        echo "Usage: opendocs CFF001"
+        return 1
+    fi
+    open "$M15_DOCS/$1"
+}
+
+# Open voice over script in Word
+openvo() {
+    if [ -z "$1" ]; then
+        echo "Usage: openvo CFF001"
+        return 1
+    fi
+    open "$M15_DOCS/$1/${1}_VoiceOverScript.docx"
+}
+
+# View production script in terminal
+viewprod() {
+    if [ -z "$1" ]; then
+        echo "Usage: viewprod CFF001"
+        return 1
+    fi
+    cat "$M15_DOCS/$1/${1}_ProductionScript.md"
+}
+
+# Count documents for subject
+checkdocs() {
+    if [ -z "$1" ]; then
+        echo "Usage: checkdocs CFF001"
+        return 1
+    fi
+    
+    echo "📄 Documents for $1:"
+    ls -lh "$M15_DOCS/$1" 2>/dev/null || echo "❌ No documents found"
+}
+
+# ============================================
+# RECORDING TIME TRACKING
+# ============================================
+
+# Estimate recording time for series
+recordtime() {
+    if [ -z "$1" ]; then
+        echo "Usage: recordtime CFF001"
+        echo "Shows estimated recording time"
+        return 1
+    fi
+    
+    cd "$M15_AUTO" || return 1
+    python3 -c "
+from src.recording_tracker import RecordingTracker
+from src.logger import Logger
+logger = Logger('temp')
+tracker = RecordingTracker(logger)
+estimate = tracker.estimate_recording_time('$1')
+"
+}
+
+# Show monthly recording estimate
+monthrecord() {
+    local series_count="${1:-8}"
+    local hours=$((series_count * 4.5))
+    
+    echo "📹 MONTHLY RECORDING ESTIMATE"
+    echo "=========================="
+    echo "Series per month: $series_count"
+    echo "Hours per series: 4.5"
+    echo "Total hours: $hours"
+    echo ""
+    echo "Weekly breakdown:"
+    echo "  Series/week: $(echo "scale=1; $series_count / 4" | bc)"
+    echo "  Hours/week: $(echo "scale=1; $hours / 4" | bc)"
+}
+
+# ============================================
+# CALENDAR & PLANNING
+# ============================================
+
+# View calendar in browser
+calendar() {
+    local cal="$M15_DRIVE/M15_Calendar/index.html"
+    if [ -f "$cal" ]; then
+        open "$cal"
+    else
+        echo "❌ Calendar not found: $cal"
+        echo "Download M15_Calendar_Complete.zip and extract to drive root"
+    fi
+}
+
+# View specific month
+viewmonth() {
+    if [ -z "$1" ]; then
+        echo "Usage: viewmonth 6"
+        echo "Opens Month 6 in browser"
+        return 1
+    fi
+    
+    local month=$(printf "%02d" "$1")
+    open "$M15_DRIVE/M15_Calendar/month_${month}.html"
+}
+
+# Show current production phase
+phase() {
+    echo "📊 PRODUCTION PHASE GUIDE"
+    echo "========================"
+    echo ""
+    echo "Phase 1 (Months 1-6): Foundation"
+    echo "  8 series/month, 36 hrs recording"
+    echo ""
+    echo "Phase 2 (Months 7-12): Validated Growth"
+    echo "  10 series/month, 45 hrs recording"
+    echo ""
+    echo "Phase 3 (Months 13-24): Proven Model"
+    echo "  12 series/month, 54 hrs recording"
+    echo ""
+    echo "Phase 4 (Months 25-42): Optimized Production"
+    echo "  14 series/month, 63 hrs recording"
+    echo ""
+    echo "Phase 5 (Months 43-64): Sustained Production"
+    echo "  12 series/month, 54 hrs recording"
+}
+
+# ============================================
+# CHANNEL REFERENCE
+# ============================================
+
+# List all channels
+channels() {
+    echo "📺 M15 CHANNELS"
+    echo "=============="
+    echo ""
+    echo "1.  CFF - Crypto Forensic Files (\$25-45 RPM)"
+    echo "2.  FV  - Financial Vice (\$20-40 RPM)"
+    echo "3.  EI  - Early Intel (\$15-28 RPM)"
+    echo "4.  UMF - USA Money Flow (\$15-30 RPM)"
+    echo "5.  TC  - Tax Crimes (\$20-38 RPM)"
+    echo "6.  HH  - Healthcare Heist (\$18-35 RPM)"
+    echo "7.  SG  - Startup Graveyard (\$20-35 RPM)"
+    echo "8.  SF  - Shadow Fortunes (\$18-35 RPM)"
+    echo "9.  SC  - Shadow Capitalism (\$18-35 RPM)"
+    echo "10. WSP - Wall Street Predators (\$18-35 RPM)"
+    echo "11. PMF - Political Money Flow (\$15-28 RPM)"
+    echo "12. RER - Real Estate Rackets (\$15-30 RPM)"
+    echo "13. BB  - Bankruptcy Billions (\$15-28 RPM)"
+    echo "14. CCC - Cartel Capital (\$18-32 RPM)"
+    echo "15. LB  - Legal Billions (\$18-30 RPM)"
+}
+
+# Show channel details
+channelinfo() {
+    if [ -z "$1" ]; then
+        echo "Usage: channelinfo CFF"
+        return 1
+    fi
+    
+    case "${1:u}" in
+        CFF)
+            echo "📺 Crypto Forensic Files"
+            echo "RPM: \$25-45 | Subjects: 50"
+            echo "Structure: THE PROMISE → THE FRAUD → THE COLLAPSE"
+            ;;
+        FV)
+            echo "📺 Financial Vice"
+            echo "RPM: \$20-40 | Subjects: 54"
+            echo "Structure: THE RISE → THE FALL → THE RECKONING"
+            ;;
+        HH)
+            echo "📺 Healthcare Heist"
+            echo "RPM: \$18-35 | Subjects: 50"
+            echo "Structure: THE SCHEME → THE VICTIMS → THE RECKONING"
+            ;;
+        PMF)
+            echo "📺 Political Money Flow"
+            echo "RPM: \$15-28 | Subjects: 50"
+            echo "Structure: THE POWER → THE MONEY → THE CONSEQUENCES"
+            ;;
+        *)
+            echo "❌ Unknown channel: $1"
+            echo "Run 'channels' to see all channel codes"
+            ;;
+    esac
+}
+
+# ============================================
+# SYSTEM MAINTENANCE
+# ============================================
+
+# Clean up logs older than 30 days
+cleanlogs() {
+    echo "🗑️ Cleaning old logs..."
+    find "$M15_LOGS" -name "*.log" -mtime +30 -delete
+    echo "✅ Deleted logs older than 30 days"
+}
+
+# Backup .env file
+backupenv() {
+    local backup="$M15_DRIVE/.env.backup.$(date +%Y%m%d)"
+    cp "$M15_DRIVE/.env" "$backup"
+    echo "✅ Backed up .env to: $backup"
+}
+
+# Check API keys are set
+checkkeys() {
+    echo "🔑 API KEY STATUS"
+    echo "================"
+    
+    [ -f "$M15_DRIVE/.env" ] || {
+        echo "❌ .env file not found"
+        return 1
+    }
+    
+    source "$M15_DRIVE/.env"
+    
+    [ -n "$ANTHROPIC_API_KEY" ] && echo "✅ ANTHROPIC_API_KEY set" || echo "❌ ANTHROPIC_API_KEY missing"
+    [ -n "$OPENAI_API_KEY" ] && echo "✅ OPENAI_API_KEY set" || echo "❌ OPENAI_API_KEY missing"
+    [ -n "$PEXELS_API_KEY" ] && echo "✅ PEXELS_API_KEY set" || echo "❌ PEXELS_API_KEY missing"
+    [ -n "$NEWSAPI_KEY" ] && echo "✅ NEWSAPI_KEY set" || echo "❌ NEWSAPI_KEY missing"
+}
+
+# Test automation system
+testgen() {
+    echo "🧪 Testing automation system..."
+    cd "$M15_AUTO" || return 1
+    
+    echo ""
+    echo "1. Checking Python..."
+    which python3
+    
+    echo ""
+    echo "2. Checking dependencies..."
+    python3 -c "import anthropic, openai, requests; print('✅ All imports successful')"
+    
+    echo ""
+    echo "3. Checking API keys..."
+    checkkeys
+    
+    echo ""
+    echo "4. Testing file structure..."
+    ls -l "$M15_AUTO"/src/*.py | head -5
+    
+    echo ""
+    echo "✅ System test complete"
+}
+
+# ============================================
+# QUICK HELP
+# ============================================
+
+# Show all M15 commands
+m15help() {
+    echo "🎬 M15 PRODUCTIONS - COMMAND REFERENCE"
+    echo "====================================="
+    echo ""
+    echo "📦 AUTOMATION:"
+    echo "  generate CFF001      - Generate complete series"
+    echo "  gendocs CFF001       - Generate documents only"
+    echo "  genimgs CFF001       - Generate images only"
+    echo "  m15status            - System status"
+    echo ""
+    echo "📰 NEWS MONITORING:"
+    echo "  newscan              - Scan all channels"
+    echo "  newscff              - Scan crypto only"
+    echo "  newsweek             - Weekly scan (all channels)"
+    echo "  viewnews             - View latest report"
+    echo ""
+    echo "🖼️ IMAGES:"
+    echo "  mkimg CFF001         - Create image folders"
+    echo "  openimg CFF001       - Open in Finder"
+    echo "  countimgs CFF001     - Count images by category"
+    echo "  checklista CFF001    - View CategoryA checklist"
+    echo ""
+    echo "📄 DOCUMENTS:"
+    echo "  opendocs CFF001      - Open docs folder"
+    echo "  openvo CFF001        - Open voice over script"
+    echo "  viewprod CFF001      - View production script"
+    echo ""
+    echo "📅 CALENDAR:"
+    echo "  calendar             - Open calendar in browser"
+    echo "  viewmonth 6          - View specific month"
+    echo "  phase                - Show production phases"
+    echo ""
+    echo "📺 CHANNELS:"
+    echo "  channels             - List all channels"
+    echo "  channelinfo CFF      - Show channel details"
+    echo ""
+    echo "⏱️ RECORDING:"
+    echo "  recordtime CFF001    - Estimate recording time"
+    echo "  monthrecord 8        - Monthly estimate (8 series)"
+    echo ""
+    echo "🔧 SYSTEM:"
+    echo "  checkkeys            - Verify API keys"
+    echo "  testgen              - Test automation system"
+    echo "  cleanlogs            - Remove old logs"
+    echo "  backupenv            - Backup .env file"
+    echo ""
+    echo "📂 NAVIGATION:"
+    echo "  jmc, auto, imgs, docs, logs"
+    echo ""
+    echo "Run 'm15help' anytime to see this menu"
+}
+
+# ============================================
+# STARTUP MESSAGE
+# ============================================
+
+echo ""
+echo "🎬 M15 Productions v5.0 Automation System"
+echo "=========================================="
+echo "Type 'm15help' for command reference"
+echo ""
+
+# ============================================
+# END OF M15 .ZSHRC v5.0
+# ============================================
